@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "724753dec1a259997030d82e2f3be739"
+build_time: [548312660, 561186000]
+inputs:
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": [547306660, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/SideMenu/Pod/Classes/SideMenuTransition.swift": [547118949, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/SideMenu/Pod/Classes/UISideMenuNavigationController.swift": [547306014, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": [547118949, 0]

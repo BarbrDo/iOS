@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "1436ed7461990f15fbd9f1dd6f26d252"
+build_time: [548312651, 723862000]
+inputs:
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQTextView/IQTextView.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift": [547706335, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIWindow+Hierarchy.swift": [547706335, 0]

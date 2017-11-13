@@ -1,0 +1,765 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "VE7BarbrDoV10Foundation4Date10TimeFormat"
+- "VE7BarbrDoV10Foundation4Date10DateFormat"
+provides-member:
+- ["V10Foundation4Date", ""]
+- ["VE7BarbrDoV10Foundation4Date10TimeFormat", ""]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", ""]
+- ["V10Foundation4Date", "TimeFormat"]
+- ["V10Foundation4Date", "DateFormat"]
+- ["V10Foundation4Date", "convert"]
+- ["V10Foundation4Date", "dateFromString"]
+- ["V10Foundation4Date", "stringFromDate"]
+- ["V10Foundation4Date", "isDevice12HoursTimeFormat"]
+- ["V10Foundation4Date", "calculateAge"]
+- ["V10Foundation4Date", "getCurrencyFormat"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "NumberFormatter"
+- "String"
+- !private "NSLocale"
+- !private "UnicodeScalarType"
+- !private "NSString"
+- !private "BooleanLiteralType"
+- "Int"
+- "Bool"
+- !private "Array"
+- "StringLiteralType"
+- !private "DateFormatter"
+- !private "NSDate"
+- !private "Locale"
+- !private "NSTimeZone"
+- !private "Double"
+- !private "NSCalendar"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "NSNumber"
+- "Date"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "Unit"]
+- !private ["Ps9AnyObject", "components"]
+- !private ["Ps9AnyObject", "contains"]
+- !private ["Ps9AnyObject", "currencyCode"]
+- !private ["Ps9AnyObject", "current"]
+- !private ["Ps9AnyObject", "date"]
+- !private ["Ps9AnyObject", "dateFormat"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "locale"]
+- !private ["Ps9AnyObject", "numberStyle"]
+- !private ["Ps9AnyObject", "startOfDay"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "system"]
+- !private ["Ps9AnyObject", "timeZone"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Unit"]
+- !private ["Ps7CVarArg", "components"]
+- !private ["Ps7CVarArg", "contains"]
+- !private ["Ps7CVarArg", "currencyCode"]
+- !private ["Ps7CVarArg", "current"]
+- !private ["Ps7CVarArg", "date"]
+- !private ["Ps7CVarArg", "dateFormat"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "locale"]
+- !private ["Ps7CVarArg", "numberStyle"]
+- !private ["Ps7CVarArg", "startOfDay"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "system"]
+- !private ["Ps7CVarArg", "timeZone"]
+- ["V10Foundation8Calendar", "deinit"]
+- !private ["Ps10Comparable", "DateFormatter"]
+- !private ["Ps10Comparable", "Double"]
+- !private ["Ps10Comparable", "NSCalendar"]
+- !private ["Ps10Comparable", "NSDate"]
+- !private ["Ps10Comparable", "NSLocale"]
+- !private ["Ps10Comparable", "NSNumber"]
+- !private ["Ps10Comparable", "NSTimeZone"]
+- !private ["Ps10Comparable", "NumberFormatter"]
+- !private ["Ps10Comparable", "String"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DateFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "NSCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocale"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNumber"]
+- !private ["Ps28CustomDebugStringConvertible", "NSTimeZone"]
+- !private ["Ps28CustomDebugStringConvertible", "NumberFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "Unit"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "currencyCode"]
+- !private ["Ps28CustomDebugStringConvertible", "current"]
+- !private ["Ps28CustomDebugStringConvertible", "date"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "day"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "locale"]
+- !private ["Ps28CustomDebugStringConvertible", "month"]
+- !private ["Ps28CustomDebugStringConvertible", "numberStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "startOfDay"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "system"]
+- !private ["Ps28CustomDebugStringConvertible", "timeZone"]
+- !private ["Ps28CustomDebugStringConvertible", "year"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "DateFormatter"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Double"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSCalendar"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSDate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSLocale"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSNumber"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSTimeZone"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NumberFormatter"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "String"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "contains"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "DateFormatter"]
+- !private ["Ps17CustomReflectable", "Double"]
+- !private ["Ps17CustomReflectable", "NSCalendar"]
+- !private ["Ps17CustomReflectable", "NSDate"]
+- !private ["Ps17CustomReflectable", "NSLocale"]
+- !private ["Ps17CustomReflectable", "NSNumber"]
+- !private ["Ps17CustomReflectable", "NSTimeZone"]
+- !private ["Ps17CustomReflectable", "NumberFormatter"]
+- !private ["Ps17CustomReflectable", "String"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "day"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "month"]
+- !private ["Ps17CustomReflectable", "year"]
+- !private ["Ps23CustomStringConvertible", "DateFormatter"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "NSCalendar"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "NSLocale"]
+- !private ["Ps23CustomStringConvertible", "NSNumber"]
+- !private ["Ps23CustomStringConvertible", "NSTimeZone"]
+- !private ["Ps23CustomStringConvertible", "NumberFormatter"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "Unit"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "currencyCode"]
+- !private ["Ps23CustomStringConvertible", "current"]
+- !private ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "dateFormat"]
+- !private ["Ps23CustomStringConvertible", "day"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "locale"]
+- !private ["Ps23CustomStringConvertible", "month"]
+- !private ["Ps23CustomStringConvertible", "numberStyle"]
+- !private ["Ps23CustomStringConvertible", "startOfDay"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "system"]
+- !private ["Ps23CustomStringConvertible", "timeZone"]
+- !private ["Ps23CustomStringConvertible", "year"]
+- ["V10Foundation4Date", "Bool"]
+- ["V10Foundation4Date", "Date"]
+- ["V10Foundation4Date", "DateFormat"]
+- !private ["V10Foundation4Date", "DateFormatter"]
+- !private ["V10Foundation4Date", "Double"]
+- ["V10Foundation4Date", "Int"]
+- !private ["V10Foundation4Date", "Locale"]
+- !private ["V10Foundation4Date", "NSCalendar"]
+- !private ["V10Foundation4Date", "NSDate"]
+- !private ["V10Foundation4Date", "NSLocale"]
+- !private ["V10Foundation4Date", "NSNumber"]
+- !private ["V10Foundation4Date", "NSString"]
+- !private ["V10Foundation4Date", "NSTimeZone"]
+- !private ["V10Foundation4Date", "NumberFormatter"]
+- ["V10Foundation4Date", "String"]
+- ["V10Foundation4Date", "TimeFormat"]
+- ["V10Foundation4Date", "calculateAge"]
+- ["V10Foundation4Date", "convert"]
+- ["V10Foundation4Date", "dateFromString"]
+- ["V10Foundation4Date", "deinit"]
+- ["V10Foundation4Date", "getCurrencyFormat"]
+- ["V10Foundation4Date", "isDevice12HoursTimeFormat"]
+- ["V10Foundation4Date", "stringFromDate"]
+- !private ["V10Foundation14DateComponents", "day"]
+- ["V10Foundation14DateComponents", "deinit"]
+- !private ["V10Foundation14DateComponents", "month"]
+- !private ["V10Foundation14DateComponents", "year"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "EEEE_MMMM_dd_yyyy"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "EEEE_MMM_dd"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "EEE_MMM_dd_yyyy"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "MMM_dd"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "MMM_dd_yyyy_hh_mm"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "MM_d_yyyy"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "d_MM"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "dd_MMMM_yyyy"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "dd_MM_yyyy"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "init"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd_HH_mm"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd_HH_mm_ss"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd_HH_mm_ss_z"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd_T_HH_mm_ss_ssz"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd_h_mm_a"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd_hh_mm"]
+- ["VE7BarbrDoV10Foundation4Date10DateFormat", "yyyy_MM_dd_hh_mm_a"]
+- !private ["CSo13DateFormatter", "date"]
+- !private ["CSo13DateFormatter", "dateFormat"]
+- ["CSo13DateFormatter", "deinit"]
+- !private ["CSo13DateFormatter", "init"]
+- !private ["CSo13DateFormatter", "locale"]
+- !private ["CSo13DateFormatter", "string"]
+- !private ["CSo13DateFormatter", "timeZone"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "DateFormatter"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "NSCalendar"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "NSLocale"]
+- !private ["Ps9Equatable", "NSNumber"]
+- !private ["Ps9Equatable", "NSTimeZone"]
+- !private ["Ps9Equatable", "NumberFormatter"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "Unit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "currency"]
+- !private ["Ps9Equatable", "currencyCode"]
+- !private ["Ps9Equatable", "current"]
+- !private ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "dateFormat"]
+- !private ["Ps9Equatable", "day"]
+- !private ["Ps9Equatable", "hour"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "locale"]
+- !private ["Ps9Equatable", "minute"]
+- !private ["Ps9Equatable", "month"]
+- !private ["Ps9Equatable", "numberStyle"]
+- !private ["Ps9Equatable", "startOfDay"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "system"]
+- !private ["Ps9Equatable", "timeZone"]
+- !private ["Ps9Equatable", "year"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "day"]
+- !private ["Ps25ExpressibleByArrayLiteral", "hour"]
+- !private ["Ps25ExpressibleByArrayLiteral", "minute"]
+- !private ["Ps25ExpressibleByArrayLiteral", "month"]
+- !private ["Ps25ExpressibleByArrayLiteral", "year"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "contains"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "contains"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "contains"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["CSo9Formatter", "currencyCode"]
+- !private ["CSo9Formatter", "date"]
+- !private ["CSo9Formatter", "dateFormat"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "locale"]
+- !private ["CSo9Formatter", "numberStyle"]
+- !private ["CSo9Formatter", "string"]
+- !private ["CSo9Formatter", "timeZone"]
+- !private ["Ps8Hashable", "DateFormatter"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "NSCalendar"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "NSLocale"]
+- !private ["Ps8Hashable", "NSNumber"]
+- !private ["Ps8Hashable", "NSTimeZone"]
+- !private ["Ps8Hashable", "NumberFormatter"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "Unit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "contains"]
+- !private ["Ps8Hashable", "currency"]
+- !private ["Ps8Hashable", "currencyCode"]
+- !private ["Ps8Hashable", "current"]
+- !private ["Ps8Hashable", "date"]
+- !private ["Ps8Hashable", "dateFormat"]
+- !private ["Ps8Hashable", "day"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "locale"]
+- !private ["Ps8Hashable", "month"]
+- !private ["Ps8Hashable", "numberStyle"]
+- !private ["Ps8Hashable", "startOfDay"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "system"]
+- !private ["Ps8Hashable", "timeZone"]
+- !private ["Ps8Hashable", "year"]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- ["V10Foundation6Locale", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["CSo10NSCalendar", "Unit"]
+- !private ["CSo10NSCalendar", "components"]
+- !private ["CSo10NSCalendar", "current"]
+- ["CSo10NSCalendar", "deinit"]
+- !private ["CSo10NSCalendar", "startOfDay"]
+- !private ["PSo8NSCoding", "Unit"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "contains"]
+- !private ["PSo8NSCoding", "currencyCode"]
+- !private ["PSo8NSCoding", "current"]
+- !private ["PSo8NSCoding", "date"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "locale"]
+- !private ["PSo8NSCoding", "numberStyle"]
+- !private ["PSo8NSCoding", "startOfDay"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo8NSCoding", "system"]
+- !private ["PSo8NSCoding", "timeZone"]
+- !private ["PSo9NSCopying", "Unit"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "contains"]
+- !private ["PSo9NSCopying", "currencyCode"]
+- !private ["PSo9NSCopying", "current"]
+- !private ["PSo9NSCopying", "date"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "locale"]
+- !private ["PSo9NSCopying", "numberStyle"]
+- !private ["PSo9NSCopying", "startOfDay"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["PSo9NSCopying", "system"]
+- !private ["PSo9NSCopying", "timeZone"]
+- ["CSo6NSDate", "deinit"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo8NSLocale", "current"]
+- ["CSo8NSLocale", "deinit"]
+- !private ["CSo8NSLocale", "init"]
+- !private ["PSo16NSMutableCopying", "contains"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSNumber", "init"]
+- !private ["CSo8NSObject", "Unit"]
+- !private ["CSo8NSObject", "components"]
+- !private ["CSo8NSObject", "contains"]
+- !private ["CSo8NSObject", "currencyCode"]
+- !private ["CSo8NSObject", "current"]
+- !private ["CSo8NSObject", "date"]
+- !private ["CSo8NSObject", "dateFormat"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "locale"]
+- !private ["CSo8NSObject", "numberStyle"]
+- !private ["CSo8NSObject", "startOfDay"]
+- !private ["CSo8NSObject", "string"]
+- !private ["CSo8NSObject", "system"]
+- !private ["CSo8NSObject", "timeZone"]
+- !private ["PSo16NSObjectProtocol", "Unit"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "contains"]
+- !private ["PSo16NSObjectProtocol", "currencyCode"]
+- !private ["PSo16NSObjectProtocol", "current"]
+- !private ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "locale"]
+- !private ["PSo16NSObjectProtocol", "numberStyle"]
+- !private ["PSo16NSObjectProtocol", "startOfDay"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo16NSObjectProtocol", "system"]
+- !private ["PSo16NSObjectProtocol", "timeZone"]
+- !private ["PSo14NSSecureCoding", "Unit"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "contains"]
+- !private ["PSo14NSSecureCoding", "current"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "startOfDay"]
+- !private ["PSo14NSSecureCoding", "system"]
+- !private ["CSo8NSString", "contains"]
+- ["CSo8NSString", "deinit"]
+- ["CSo8NSString", "init"]
+- !private ["CSo10NSTimeZone", "system"]
+- !private ["CSo7NSValue", "init"]
+- !private ["CSo15NumberFormatter", "currencyCode"]
+- ["CSo15NumberFormatter", "deinit"]
+- !private ["CSo15NumberFormatter", "init"]
+- !private ["CSo15NumberFormatter", "numberStyle"]
+- !private ["CSo15NumberFormatter", "string"]
+- !private ["Ps9OptionSet", "Element"]
+- !private ["Ps9OptionSet", "day"]
+- !private ["Ps9OptionSet", "hour"]
+- !private ["Ps9OptionSet", "minute"]
+- !private ["Ps9OptionSet", "month"]
+- !private ["Ps9OptionSet", "year"]
+- ["Sq", "deinit"]
+- !private ["VCSo10NSCalendar7Options", "Element"]
+- ["VCSo10NSCalendar7Options", "deinit"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "currency"]
+- !private ["Ps16RawRepresentable", "day"]
+- !private ["Ps16RawRepresentable", "hour"]
+- !private ["Ps16RawRepresentable", "minute"]
+- !private ["Ps16RawRepresentable", "month"]
+- !private ["Ps16RawRepresentable", "year"]
+- !private ["P10Foundation20ReferenceConvertible", "DateFormatter"]
+- !private ["P10Foundation20ReferenceConvertible", "Double"]
+- !private ["P10Foundation20ReferenceConvertible", "NSCalendar"]
+- !private ["P10Foundation20ReferenceConvertible", "NSDate"]
+- !private ["P10Foundation20ReferenceConvertible", "NSLocale"]
+- !private ["P10Foundation20ReferenceConvertible", "NSNumber"]
+- !private ["P10Foundation20ReferenceConvertible", "NSTimeZone"]
+- !private ["P10Foundation20ReferenceConvertible", "NumberFormatter"]
+- !private ["P10Foundation20ReferenceConvertible", "String"]
+- !private ["P10Foundation20ReferenceConvertible", "day"]
+- !private ["P10Foundation20ReferenceConvertible", "month"]
+- !private ["P10Foundation20ReferenceConvertible", "year"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "day"]
+- !private ["Ps10SetAlgebra", "hour"]
+- !private ["Ps10SetAlgebra", "minute"]
+- !private ["Ps10SetAlgebra", "month"]
+- !private ["Ps10SetAlgebra", "year"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- !private ["OCSo15NumberFormatter5Style", "currency"]
+- ["OCSo15NumberFormatter5Style", "deinit"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["VE7BarbrDoV10Foundation4Date10TimeFormat", "HH_mm"]
+- ["VE7BarbrDoV10Foundation4Date10TimeFormat", "HH_mm_ss"]
+- ["VE7BarbrDoV10Foundation4Date10TimeFormat", "hh_mm"]
+- ["VE7BarbrDoV10Foundation4Date10TimeFormat", "hh_mm_a"]
+- ["VE7BarbrDoV10Foundation4Date10TimeFormat", "init"]
+- ["V10Foundation8TimeZone", "deinit"]
+- ["P9Alamofire14URLConvertible", "init"]
+- !private ["VCSo10NSCalendar4Unit", "Element"]
+- !private ["VCSo10NSCalendar4Unit", "day"]
+- ["VCSo10NSCalendar4Unit", "deinit"]
+- !private ["VCSo10NSCalendar4Unit", "hour"]
+- !private ["VCSo10NSCalendar4Unit", "minute"]
+- !private ["VCSo10NSCalendar4Unit", "month"]
+- !private ["VCSo10NSCalendar4Unit", "year"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Unit"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "components"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "contains"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "current"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "startOfDay"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "system"]
+- !private ["Ps9_Hashable", "DateFormatter"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "NSCalendar"]
+- !private ["Ps9_Hashable", "NSDate"]
+- !private ["Ps9_Hashable", "NSLocale"]
+- !private ["Ps9_Hashable", "NSNumber"]
+- !private ["Ps9_Hashable", "NSTimeZone"]
+- !private ["Ps9_Hashable", "NumberFormatter"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "Unit"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "components"]
+- !private ["Ps9_Hashable", "contains"]
+- !private ["Ps9_Hashable", "currency"]
+- !private ["Ps9_Hashable", "currencyCode"]
+- !private ["Ps9_Hashable", "current"]
+- !private ["Ps9_Hashable", "date"]
+- !private ["Ps9_Hashable", "dateFormat"]
+- !private ["Ps9_Hashable", "day"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "locale"]
+- !private ["Ps9_Hashable", "month"]
+- !private ["Ps9_Hashable", "numberStyle"]
+- !private ["Ps9_Hashable", "startOfDay"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps9_Hashable", "system"]
+- !private ["Ps9_Hashable", "timeZone"]
+- !private ["Ps9_Hashable", "year"]
+- !private ["P10Foundation14_MutableBoxing", "day"]
+- !private ["P10Foundation14_MutableBoxing", "month"]
+- !private ["P10Foundation14_MutableBoxing", "year"]
+- !private ["Ps21_ObjectiveCBridgeable", "DateFormatter"]
+- !private ["Ps21_ObjectiveCBridgeable", "Double"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSCalendar"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSDate"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSLocale"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSNumber"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSTimeZone"]
+- !private ["Ps21_ObjectiveCBridgeable", "NumberFormatter"]
+- !private ["Ps21_ObjectiveCBridgeable", "String"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "day"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "month"]
+- !private ["Ps21_ObjectiveCBridgeable", "year"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- "Sb"
+- "Ps7CVarArg"
+- "V10Foundation8Calendar"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "V10Foundation14DateComponents"
+- "VE7BarbrDoV10Foundation4Date10DateFormat"
+- "CSo13DateFormatter"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- "V10Foundation6Locale"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo10NSCalendar"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSDate"
+- "CSo8NSLocale"
+- "PSo16NSMutableCopying"
+- "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo10NSTimeZone"
+- !private "CSo7NSValue"
+- "CSo15NumberFormatter"
+- !private "Ps9OptionSet"
+- "Sq"
+- "VCSo10NSCalendar7Options"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps10SetAlgebra"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "OCSo15NumberFormatter5Style"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "VE7BarbrDoV10Foundation4Date10TimeFormat"
+- "V10Foundation8TimeZone"
+- "P9Alamofire14URLConvertible"
+- "VCSo10NSCalendar4Unit"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "P10Foundation14_MutableBoxing"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/EZRatingView/BarbrDo-Bridging-Header.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/EZRatingView/EZRatingView.h"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Modules/PageMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Modules/SwiftyStarRatingView.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Headers/SwiftyStarRatingView-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Headers/SwiftyStarRatingView-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+interface-hash: "c657b8beb6f740579be73d3dd1ec71ab"

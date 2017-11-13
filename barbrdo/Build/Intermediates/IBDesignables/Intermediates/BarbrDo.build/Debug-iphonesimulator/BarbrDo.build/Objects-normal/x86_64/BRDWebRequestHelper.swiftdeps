@@ -1,0 +1,1050 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BRDWebRequestHelper"
+provides-nominal:
+- "C7BarbrDo19BRDWebRequestHelper"
+provides-member:
+- ["C7BarbrDo19BRDWebRequestHelper", ""]
+provides-dynamic-lookup:
+- "login"
+- "viewAllShops"
+- "getAllAppointment"
+- "facebookLogin"
+- "signup"
+- "viewAllBarbers"
+- "forgotPassword"
+depends-top-level:
+- "BRD_AppointmentsInfoBO"
+- !private "Alamofire"
+- !private "BRDWebRequestParamFactory"
+- !private "KBaseURLString"
+- !private "JSONSerialization"
+- !private "KViewAllBarbersURL"
+- !private "+"
+- !private "KcheckFaceBookURL"
+- !private "NSLocalizedDescriptionKey"
+- "BRD_ShopDataBO"
+- !private ">"
+- !private "CastingPrecedence"
+- !private "KSignUpURL"
+- !private "AssignmentPrecedence"
+- !private "=="
+- !private "Mappable"
+- "NSObject"
+- "Double"
+- !private "JSONEncoding"
+- !private "print"
+- "BRD_BarberDataBO"
+- !private "KGetAllAppointmentURL"
+- !private "Int"
+- !private "KViewAllShopsURL"
+- !private "HTTPMethod"
+- "NSError"
+- !private "NSArray"
+- !private "KForgotURL"
+- "Void"
+- "BRDWebRequestHelper"
+- "BRD_UserInfoBO"
+- !private "KLoginURL"
+- "String"
+- !private "DataRequest"
+- "Dictionary"
+depends-member:
+- !private ["Ps9AnyObject", "Alamofire"]
+- !private ["Ps9AnyObject", "BRDWebRequestParamFactory"]
+- !private ["Ps9AnyObject", "BRD_AppointmentsInfoBO"]
+- !private ["Ps9AnyObject", "BRD_BarberDataBO"]
+- !private ["Ps9AnyObject", "BRD_ShopDataBO"]
+- !private ["Ps9AnyObject", "BRD_UserInfoBO"]
+- !private ["Ps9AnyObject", "HTTPMethod"]
+- !private ["Ps9AnyObject", "JSONEncoding"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "KBaseURLString"]
+- !private ["Ps9AnyObject", "KForgotURL"]
+- !private ["Ps9AnyObject", "KGetAllAppointmentURL"]
+- !private ["Ps9AnyObject", "KLoginURL"]
+- !private ["Ps9AnyObject", "KSignUpURL"]
+- !private ["Ps9AnyObject", "KViewAllBarbersURL"]
+- !private ["Ps9AnyObject", "KViewAllShopsURL"]
+- !private ["Ps9AnyObject", "KcheckFaceBookURL"]
+- !private ["Ps9AnyObject", "NSError"]
+- !private ["Ps9AnyObject", "NSLocalizedDescriptionKey"]
+- ["Ps9AnyObject", "_sendRequest"]
+- !private ["Ps9AnyObject", "createAppointmentBody"]
+- !private ["Ps9AnyObject", "defaultHeader"]
+- ["Ps9AnyObject", "facebookLogin"]
+- ["Ps9AnyObject", "forgotPassword"]
+- ["Ps9AnyObject", "getAllAppointment"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- ["Ps9AnyObject", "login"]
+- !private ["Ps9AnyObject", "modelsFromDictionaryArray"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "responseJSON"]
+- !private ["Ps9AnyObject", "responseString"]
+- !private ["Ps9AnyObject", "signUpParameters"]
+- ["Ps9AnyObject", "signup"]
+- !private ["Ps9AnyObject", "statusCode"]
+- ["Ps9AnyObject", "viewAllBarbers"]
+- ["Ps9AnyObject", "viewAllShops"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Index"]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "Alamofire"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "BRDWebRequestParamFactory"]
+- ["C7BarbrDo19BRDWebRequestHelper", "BRD_AppointmentsInfoBO"]
+- ["C7BarbrDo19BRDWebRequestHelper", "BRD_BarberDataBO"]
+- ["C7BarbrDo19BRDWebRequestHelper", "BRD_ShopDataBO"]
+- ["C7BarbrDo19BRDWebRequestHelper", "BRD_UserInfoBO"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "DataRequest"]
+- ["C7BarbrDo19BRDWebRequestHelper", "Double"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "HTTPMethod"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "Int"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "JSONEncoding"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "JSONSerialization"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KBaseURLString"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KForgotURL"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KGetAllAppointmentURL"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KLoginURL"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KSignUpURL"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KViewAllBarbersURL"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KViewAllShopsURL"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "KcheckFaceBookURL"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "Mappable"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "NSArray"]
+- ["C7BarbrDo19BRDWebRequestHelper", "NSError"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "NSLocalizedDescriptionKey"]
+- ["C7BarbrDo19BRDWebRequestHelper", "String"]
+- ["C7BarbrDo19BRDWebRequestHelper", "Void"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "_sendRequest"]
+- ["C7BarbrDo19BRDWebRequestHelper", "deinit"]
+- ["C7BarbrDo19BRDWebRequestHelper", "facebookLogin"]
+- ["C7BarbrDo19BRDWebRequestHelper", "forgotPassword"]
+- ["C7BarbrDo19BRDWebRequestHelper", "getAllAppointment"]
+- ["C7BarbrDo19BRDWebRequestHelper", "init"]
+- ["C7BarbrDo19BRDWebRequestHelper", "login"]
+- !private ["C7BarbrDo19BRDWebRequestHelper", "print"]
+- ["C7BarbrDo19BRDWebRequestHelper", "signup"]
+- ["C7BarbrDo19BRDWebRequestHelper", "viewAllBarbers"]
+- ["C7BarbrDo19BRDWebRequestHelper", "viewAllShops"]
+- !private ["C7BarbrDo25BRDWebRequestParamFactory", "createAppointmentBody"]
+- !private ["C7BarbrDo25BRDWebRequestParamFactory", "defaultHeader"]
+- !private ["C7BarbrDo25BRDWebRequestParamFactory", "forgotPassword"]
+- !private ["C7BarbrDo25BRDWebRequestParamFactory", "signUpParameters"]
+- !private ["C7BarbrDo25BRDWebRequestParamFactory", "viewAllBarbers"]
+- !private ["C7BarbrDo25BRDWebRequestParamFactory", "viewAllShops"]
+- !private ["C7BarbrDo22BRD_AppointmentsInfoBO", "modelsFromDictionaryArray"]
+- !private ["C7BarbrDo16BRD_BarberDataBO", "modelsFromDictionaryArray"]
+- !private ["C7BarbrDo14BRD_ShopDataBO", "modelsFromDictionaryArray"]
+- !private ["C7BarbrDo14BRD_UserInfoBO", "init"]
+- !private ["Ps23BidirectionalCollection", "Index"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Indices"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "SubSequence"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps22BidirectionalIndexable", "Index"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Indices"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "SubSequence"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "subscript"]
+- !private ["Vs18BidirectionalSlice", "Index"]
+- !private ["Vs18BidirectionalSlice", "IndexDistance"]
+- !private ["Vs18BidirectionalSlice", "Indices"]
+- !private ["Vs18BidirectionalSlice", "Iterator"]
+- !private ["Vs18BidirectionalSlice", "SubSequence"]
+- !private ["Vs18BidirectionalSlice", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Alamofire"]
+- !private ["Ps7CVarArg", "BRDWebRequestParamFactory"]
+- !private ["Ps7CVarArg", "BRD_AppointmentsInfoBO"]
+- !private ["Ps7CVarArg", "BRD_BarberDataBO"]
+- !private ["Ps7CVarArg", "BRD_ShopDataBO"]
+- !private ["Ps7CVarArg", "BRD_UserInfoBO"]
+- !private ["Ps7CVarArg", "HTTPMethod"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "JSONEncoding"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- !private ["Ps7CVarArg", "KBaseURLString"]
+- !private ["Ps7CVarArg", "KForgotURL"]
+- !private ["Ps7CVarArg", "KGetAllAppointmentURL"]
+- !private ["Ps7CVarArg", "KLoginURL"]
+- !private ["Ps7CVarArg", "KSignUpURL"]
+- !private ["Ps7CVarArg", "KViewAllBarbersURL"]
+- !private ["Ps7CVarArg", "KViewAllShopsURL"]
+- !private ["Ps7CVarArg", "KcheckFaceBookURL"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NSError"]
+- !private ["Ps7CVarArg", "NSLocalizedDescriptionKey"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- ["Ps7CVarArg", "_sendRequest"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "facebookLogin"]
+- ["Ps7CVarArg", "forgotPassword"]
+- ["Ps7CVarArg", "getAllAppointment"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- ["Ps7CVarArg", "login"]
+- !private ["Ps7CVarArg", "modelsFromDictionaryArray"]
+- !private ["Ps7CVarArg", "print"]
+- ["Ps7CVarArg", "signup"]
+- !private ["Ps7CVarArg", "statusCode"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "viewAllBarbers"]
+- ["Ps7CVarArg", "viewAllShops"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Indices"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Alamofire"]
+- !private ["Ps28CustomDebugStringConvertible", "BRDWebRequestParamFactory"]
+- !private ["Ps28CustomDebugStringConvertible", "BRD_AppointmentsInfoBO"]
+- !private ["Ps28CustomDebugStringConvertible", "BRD_BarberDataBO"]
+- !private ["Ps28CustomDebugStringConvertible", "BRD_ShopDataBO"]
+- !private ["Ps28CustomDebugStringConvertible", "BRD_UserInfoBO"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "KBaseURLString"]
+- !private ["Ps28CustomDebugStringConvertible", "KForgotURL"]
+- !private ["Ps28CustomDebugStringConvertible", "KGetAllAppointmentURL"]
+- !private ["Ps28CustomDebugStringConvertible", "KLoginURL"]
+- !private ["Ps28CustomDebugStringConvertible", "KSignUpURL"]
+- !private ["Ps28CustomDebugStringConvertible", "KViewAllBarbersURL"]
+- !private ["Ps28CustomDebugStringConvertible", "KViewAllShopsURL"]
+- !private ["Ps28CustomDebugStringConvertible", "KcheckFaceBookURL"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSError"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "_sendRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- ["Ps28CustomDebugStringConvertible", "facebookLogin"]
+- ["Ps28CustomDebugStringConvertible", "forgotPassword"]
+- ["Ps28CustomDebugStringConvertible", "getAllAppointment"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- ["Ps28CustomDebugStringConvertible", "login"]
+- !private ["Ps28CustomDebugStringConvertible", "modelsFromDictionaryArray"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "response"]
+- !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "responseString"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- ["Ps28CustomDebugStringConvertible", "signup"]
+- !private ["Ps28CustomDebugStringConvertible", "statusCode"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", "viewAllBarbers"]
+- ["Ps28CustomDebugStringConvertible", "viewAllShops"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Alamofire"]
+- !private ["Ps23CustomStringConvertible", "BRDWebRequestParamFactory"]
+- !private ["Ps23CustomStringConvertible", "BRD_AppointmentsInfoBO"]
+- !private ["Ps23CustomStringConvertible", "BRD_BarberDataBO"]
+- !private ["Ps23CustomStringConvertible", "BRD_ShopDataBO"]
+- !private ["Ps23CustomStringConvertible", "BRD_UserInfoBO"]
+- !private ["Ps23CustomStringConvertible", "HTTPMethod"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "JSONEncoding"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "KBaseURLString"]
+- !private ["Ps23CustomStringConvertible", "KForgotURL"]
+- !private ["Ps23CustomStringConvertible", "KGetAllAppointmentURL"]
+- !private ["Ps23CustomStringConvertible", "KLoginURL"]
+- !private ["Ps23CustomStringConvertible", "KSignUpURL"]
+- !private ["Ps23CustomStringConvertible", "KViewAllBarbersURL"]
+- !private ["Ps23CustomStringConvertible", "KViewAllShopsURL"]
+- !private ["Ps23CustomStringConvertible", "KcheckFaceBookURL"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSError"]
+- !private ["Ps23CustomStringConvertible", "NSLocalizedDescriptionKey"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_sendRequest"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "error"]
+- ["Ps23CustomStringConvertible", "facebookLogin"]
+- ["Ps23CustomStringConvertible", "forgotPassword"]
+- ["Ps23CustomStringConvertible", "getAllAppointment"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- ["Ps23CustomStringConvertible", "login"]
+- !private ["Ps23CustomStringConvertible", "modelsFromDictionaryArray"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "response"]
+- !private ["Ps23CustomStringConvertible", "responseJSON"]
+- !private ["Ps23CustomStringConvertible", "responseString"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- ["Ps23CustomStringConvertible", "signup"]
+- !private ["Ps23CustomStringConvertible", "statusCode"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", "viewAllBarbers"]
+- ["Ps23CustomStringConvertible", "viewAllShops"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "deinit"]
+- ["C9Alamofire11DataRequest", "deinit"]
+- !private ["C9Alamofire11DataRequest", "responseJSON"]
+- !private ["C9Alamofire11DataRequest", "responseString"]
+- !private ["V9Alamofire12DataResponse", "data"]
+- !private ["V9Alamofire12DataResponse", "deinit"]
+- !private ["V9Alamofire12DataResponse", "response"]
+- !private ["V9Alamofire12DataResponse", "result"]
+- !private ["Vs27DefaultBidirectionalIndices", "Index"]
+- !private ["Vs27DefaultBidirectionalIndices", "Iterator"]
+- !private ["Vs27DefaultBidirectionalIndices", "SubSequence"]
+- !private ["Vs27DefaultBidirectionalIndices", "_Element"]
+- !private ["Vs26DefaultRandomAccessIndices", "Index"]
+- !private ["Vs26DefaultRandomAccessIndices", "IndexDistance"]
+- !private ["Vs26DefaultRandomAccessIndices", "Indices"]
+- !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
+- !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
+- !private ["Vs26DefaultRandomAccessIndices", "_Element"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Alamofire"]
+- !private ["Ps9Equatable", "BRDWebRequestParamFactory"]
+- !private ["Ps9Equatable", "BRD_AppointmentsInfoBO"]
+- !private ["Ps9Equatable", "BRD_BarberDataBO"]
+- !private ["Ps9Equatable", "BRD_ShopDataBO"]
+- !private ["Ps9Equatable", "BRD_UserInfoBO"]
+- !private ["Ps9Equatable", "HTTPMethod"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "JSONEncoding"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- !private ["Ps9Equatable", "KBaseURLString"]
+- !private ["Ps9Equatable", "KForgotURL"]
+- !private ["Ps9Equatable", "KGetAllAppointmentURL"]
+- !private ["Ps9Equatable", "KLoginURL"]
+- !private ["Ps9Equatable", "KSignUpURL"]
+- !private ["Ps9Equatable", "KViewAllBarbersURL"]
+- !private ["Ps9Equatable", "KViewAllShopsURL"]
+- !private ["Ps9Equatable", "KcheckFaceBookURL"]
+- !private ["Ps9Equatable", "NSError"]
+- !private ["Ps9Equatable", "NSLocalizedDescriptionKey"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_sendRequest"]
+- ["Ps9Equatable", "facebookLogin"]
+- ["Ps9Equatable", "forgotPassword"]
+- !private ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "getAllAppointment"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonObject"]
+- ["Ps9Equatable", "login"]
+- !private ["Ps9Equatable", "modelsFromDictionaryArray"]
+- !private ["Ps9Equatable", "mutableContainers"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "signup"]
+- !private ["Ps9Equatable", "statusCode"]
+- ["Ps9Equatable", "viewAllBarbers"]
+- ["Ps9Equatable", "viewAllShops"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "mutableContainers"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["O9Alamofire10HTTPMethod", "deinit"]
+- !private ["O9Alamofire10HTTPMethod", "get"]
+- !private ["O9Alamofire10HTTPMethod", "post"]
+- !private ["CSo15HTTPURLResponse", "deinit"]
+- !private ["CSo15HTTPURLResponse", "statusCode"]
+- !private ["Ps8Hashable", "Alamofire"]
+- !private ["Ps8Hashable", "BRDWebRequestParamFactory"]
+- !private ["Ps8Hashable", "BRD_AppointmentsInfoBO"]
+- !private ["Ps8Hashable", "BRD_BarberDataBO"]
+- !private ["Ps8Hashable", "BRD_ShopDataBO"]
+- !private ["Ps8Hashable", "BRD_UserInfoBO"]
+- !private ["Ps8Hashable", "HTTPMethod"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "JSONEncoding"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- !private ["Ps8Hashable", "KBaseURLString"]
+- !private ["Ps8Hashable", "KForgotURL"]
+- !private ["Ps8Hashable", "KGetAllAppointmentURL"]
+- !private ["Ps8Hashable", "KLoginURL"]
+- !private ["Ps8Hashable", "KSignUpURL"]
+- !private ["Ps8Hashable", "KViewAllBarbersURL"]
+- !private ["Ps8Hashable", "KViewAllShopsURL"]
+- !private ["Ps8Hashable", "KcheckFaceBookURL"]
+- !private ["Ps8Hashable", "NSError"]
+- !private ["Ps8Hashable", "NSLocalizedDescriptionKey"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_sendRequest"]
+- ["Ps8Hashable", "facebookLogin"]
+- ["Ps8Hashable", "forgotPassword"]
+- !private ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "getAllAppointment"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonObject"]
+- ["Ps8Hashable", "login"]
+- !private ["Ps8Hashable", "modelsFromDictionaryArray"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "signup"]
+- !private ["Ps8Hashable", "statusCode"]
+- ["Ps8Hashable", "viewAllBarbers"]
+- ["Ps8Hashable", "viewAllShops"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Indices"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Indices"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Si", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["V9Alamofire12JSONEncoding", "default"]
+- ["V9Alamofire12JSONEncoding", "deinit"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["CSo7NSArray", "deinit"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Alamofire"]
+- !private ["CSo8NSObject", "BRDWebRequestParamFactory"]
+- ["CSo8NSObject", "BRD_AppointmentsInfoBO"]
+- ["CSo8NSObject", "BRD_BarberDataBO"]
+- ["CSo8NSObject", "BRD_ShopDataBO"]
+- ["CSo8NSObject", "BRD_UserInfoBO"]
+- !private ["CSo8NSObject", "DataRequest"]
+- ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "JSONEncoding"]
+- !private ["CSo8NSObject", "JSONSerialization"]
+- !private ["CSo8NSObject", "KBaseURLString"]
+- !private ["CSo8NSObject", "KForgotURL"]
+- !private ["CSo8NSObject", "KGetAllAppointmentURL"]
+- !private ["CSo8NSObject", "KLoginURL"]
+- !private ["CSo8NSObject", "KSignUpURL"]
+- !private ["CSo8NSObject", "KViewAllBarbersURL"]
+- !private ["CSo8NSObject", "KViewAllShopsURL"]
+- !private ["CSo8NSObject", "KcheckFaceBookURL"]
+- !private ["CSo8NSObject", "Mappable"]
+- !private ["CSo8NSObject", "NSArray"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSLocalizedDescriptionKey"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "_sendRequest"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "facebookLogin"]
+- ["CSo8NSObject", "forgotPassword"]
+- ["CSo8NSObject", "getAllAppointment"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonObject"]
+- ["CSo8NSObject", "login"]
+- !private ["CSo8NSObject", "modelsFromDictionaryArray"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "signup"]
+- !private ["CSo8NSObject", "statusCode"]
+- ["CSo8NSObject", "viewAllBarbers"]
+- ["CSo8NSObject", "viewAllShops"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Alamofire"]
+- !private ["PSo16NSObjectProtocol", "BRDWebRequestParamFactory"]
+- !private ["PSo16NSObjectProtocol", "BRD_AppointmentsInfoBO"]
+- !private ["PSo16NSObjectProtocol", "BRD_BarberDataBO"]
+- !private ["PSo16NSObjectProtocol", "BRD_ShopDataBO"]
+- !private ["PSo16NSObjectProtocol", "BRD_UserInfoBO"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "JSONEncoding"]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "KBaseURLString"]
+- !private ["PSo16NSObjectProtocol", "KForgotURL"]
+- !private ["PSo16NSObjectProtocol", "KGetAllAppointmentURL"]
+- !private ["PSo16NSObjectProtocol", "KLoginURL"]
+- !private ["PSo16NSObjectProtocol", "KSignUpURL"]
+- !private ["PSo16NSObjectProtocol", "KViewAllBarbersURL"]
+- !private ["PSo16NSObjectProtocol", "KViewAllShopsURL"]
+- !private ["PSo16NSObjectProtocol", "KcheckFaceBookURL"]
+- !private ["PSo16NSObjectProtocol", "NSError"]
+- !private ["PSo16NSObjectProtocol", "NSLocalizedDescriptionKey"]
+- ["PSo16NSObjectProtocol", "_sendRequest"]
+- ["PSo16NSObjectProtocol", "facebookLogin"]
+- ["PSo16NSObjectProtocol", "forgotPassword"]
+- ["PSo16NSObjectProtocol", "getAllAppointment"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- ["PSo16NSObjectProtocol", "login"]
+- !private ["PSo16NSObjectProtocol", "modelsFromDictionaryArray"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "signup"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- ["PSo16NSObjectProtocol", "viewAllBarbers"]
+- ["PSo16NSObjectProtocol", "viewAllShops"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "mutableContainers"]
+- ["Sq", "deinit"]
+- !private ["P9Alamofire17ParameterEncoding", "default"]
+- !private ["Ps22RandomAccessCollection", "Index"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Indices"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "SubSequence"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps21RandomAccessIndexable", "Index"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Indices"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "SubSequence"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps21RandomAccessIndexable", "subscript"]
+- !private ["Vs17RandomAccessSlice", "Index"]
+- !private ["Vs17RandomAccessSlice", "IndexDistance"]
+- !private ["Vs17RandomAccessSlice", "Indices"]
+- !private ["Vs17RandomAccessSlice", "Iterator"]
+- !private ["Vs17RandomAccessSlice", "SubSequence"]
+- !private ["Vs17RandomAccessSlice", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps25RangeReplaceableIndexable", "Index"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "subscript"]
+- !private ["Ps16RawRepresentable", "get"]
+- !private ["Ps16RawRepresentable", "mutableContainers"]
+- !private ["Ps16RawRepresentable", "post"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "mutableContainers"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["C9Alamofire7Request", "responseString"]
+- !private ["P9Alamofire8Response", "data"]
+- !private ["P9Alamofire8Response", "response"]
+- !private ["P9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "deinit"]
+- !private ["O9Alamofire6Result", "error"]
+- !private ["O9Alamofire6Result", "value"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Indices"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "mutableContainers"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["CSo11URLResponse", "statusCode"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Alamofire"]
+- !private ["Ps9_Hashable", "BRDWebRequestParamFactory"]
+- !private ["Ps9_Hashable", "BRD_AppointmentsInfoBO"]
+- !private ["Ps9_Hashable", "BRD_BarberDataBO"]
+- !private ["Ps9_Hashable", "BRD_ShopDataBO"]
+- !private ["Ps9_Hashable", "BRD_UserInfoBO"]
+- !private ["Ps9_Hashable", "HTTPMethod"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "JSONEncoding"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- !private ["Ps9_Hashable", "KBaseURLString"]
+- !private ["Ps9_Hashable", "KForgotURL"]
+- !private ["Ps9_Hashable", "KGetAllAppointmentURL"]
+- !private ["Ps9_Hashable", "KLoginURL"]
+- !private ["Ps9_Hashable", "KSignUpURL"]
+- !private ["Ps9_Hashable", "KViewAllBarbersURL"]
+- !private ["Ps9_Hashable", "KViewAllShopsURL"]
+- !private ["Ps9_Hashable", "KcheckFaceBookURL"]
+- !private ["Ps9_Hashable", "NSError"]
+- !private ["Ps9_Hashable", "NSLocalizedDescriptionKey"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_sendRequest"]
+- ["Ps9_Hashable", "facebookLogin"]
+- ["Ps9_Hashable", "forgotPassword"]
+- !private ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "getAllAppointment"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- ["Ps9_Hashable", "login"]
+- !private ["Ps9_Hashable", "modelsFromDictionaryArray"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "print"]
+- ["Ps9_Hashable", "signup"]
+- !private ["Ps9_Hashable", "statusCode"]
+- ["Ps9_Hashable", "viewAllBarbers"]
+- ["Ps9_Hashable", "viewAllShops"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- "C7BarbrDo19BRDWebRequestHelper"
+- !private "C7BarbrDo25BRDWebRequestParamFactory"
+- !private "C7BarbrDo22BRD_AppointmentsInfoBO"
+- !private "C7BarbrDo16BRD_BarberDataBO"
+- !private "C7BarbrDo14BRD_ShopDataBO"
+- !private "C7BarbrDo14BRD_UserInfoBO"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Vs18BidirectionalSlice"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "C9Alamofire11DataRequest"
+- !private "V9Alamofire12DataResponse"
+- !private "Vs27DefaultBidirectionalIndices"
+- !private "Vs26DefaultRandomAccessIndices"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O9Alamofire10HTTPMethod"
+- !private "CSo15HTTPURLResponse"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- "V9Alamofire12JSONEncoding"
+- !private "CSo17JSONSerialization"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "P9Alamofire17ParameterEncoding"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs17RandomAccessSlice"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "VCSo17JSONSerialization14ReadingOptions"
+- !private "C9Alamofire7Request"
+- !private "P9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P9Alamofire14URLConvertible"
+- !private "CSo11URLResponse"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/EZRatingView/BarbrDo-Bridging-Header.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/EZRatingView/EZRatingView.h"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Modules/PageMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Modules/SwiftyStarRatingView.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Headers/SwiftyStarRatingView-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Headers/SwiftyStarRatingView-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+interface-hash: "c5e743d65365adb04484c1759d68148a"

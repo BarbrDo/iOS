@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "e3932953d90fd16a4f1406294a1e7b14"
+build_time: [548312116, 827908000]
+inputs:
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/AFError.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/Alamofire.swift": [547029272, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/MultipartFormData.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/Notifications.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/ParameterEncoding.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/Request.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/Response.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/ResponseSerialization.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/Result.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/ServerTrustPolicy.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/SessionDelegate.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/SessionManager.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/TaskDelegate.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/Timeline.swift": [547023067, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Alamofire/Source/Validation.swift": [547023067, 0]

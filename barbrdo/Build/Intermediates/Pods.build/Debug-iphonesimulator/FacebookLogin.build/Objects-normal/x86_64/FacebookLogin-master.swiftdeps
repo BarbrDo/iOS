@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "87ab91225f75c84ba10f3416a2d34437"
+build_time: [548312138, 194701000]
+inputs:
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [547643150, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [547643150, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [547643150, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [547643150, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [547643150, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [547643150, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [547643150, 0]
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [547643150, 0]

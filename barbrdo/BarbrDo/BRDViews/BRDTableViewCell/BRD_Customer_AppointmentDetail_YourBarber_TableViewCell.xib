@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Berlin Sans FB Regular.ttf">
+            <string>BerlinSansFB-Reg</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BRD_Customer_AppointmentDetail_YourBarber_TableViewCell_CellIdentifier" rowHeight="141" id="KGk-i7-Jjw" customClass="BRD_Customer_AppointmentDetail_YourBarber_TableViewCell" customModule="BarbrDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="141.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccI-2H-jlQ">
+                        <rect key="frame" x="10" y="5" width="300" height="131"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE2-35-7Hs">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Barber" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6w-3T-hvC">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="28"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="18"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="9FC-fC-vxH"/>
+                                    <constraint firstAttribute="bottom" secondItem="R6w-3T-hvC" secondAttribute="bottom" id="M6j-FH-1hN"/>
+                                    <constraint firstItem="R6w-3T-hvC" firstAttribute="leading" secondItem="dE2-35-7Hs" secondAttribute="leading" id="Rxm-vw-OtR"/>
+                                    <constraint firstAttribute="trailing" secondItem="R6w-3T-hvC" secondAttribute="trailing" id="giB-oD-enF"/>
+                                    <constraint firstItem="R6w-3T-hvC" firstAttribute="top" secondItem="dE2-35-7Hs" secondAttribute="top" id="uJl-Vx-xta"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D7M-OU-5RO">
+                                <rect key="frame" x="0.0" y="28" width="300" height="68"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON_PROFILEIMAGE" translatesAutoresizingMaskIntoConstraints="NO" id="wkQ-cd-oXT">
+                                        <rect key="frame" x="10" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="LcB-cm-2s9"/>
+                                            <constraint firstAttribute="width" constant="60" id="VB4-KI-anX"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iw8-qO-YZa">
+                                        <rect key="frame" x="70" y="0.0" width="230" height="68"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9k-0v-6DK" customClass="BRD_UILabel" customModule="BarbrDo" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="0.0" width="52.5" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="rEL-DQ-biv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="14"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXi-3T-Rgi">
+                                                <rect key="frame" x="0.0" y="20" width="230" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last cut: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="983-o1-xGW">
+                                                        <rect key="frame" x="10" y="0.0" width="41" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="JXN-G6-YER"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                                        <color key="textColor" red="0.32549019610000002" green="0.33333333329999998" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2/21/2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4x-mF-bjD">
+                                                        <rect key="frame" x="56" y="0.0" width="40" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="5kX-c9-nsd"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="m4x-mF-bjD" firstAttribute="leading" secondItem="983-o1-xGW" secondAttribute="trailing" constant="5" id="MbN-fD-v4I"/>
+                                                    <constraint firstItem="m4x-mF-bjD" firstAttribute="top" secondItem="qXi-3T-Rgi" secondAttribute="top" id="QXu-Wq-FMm"/>
+                                                    <constraint firstAttribute="height" constant="20" id="SQK-tf-cDr"/>
+                                                    <constraint firstItem="983-o1-xGW" firstAttribute="top" secondItem="qXi-3T-Rgi" secondAttribute="top" id="Vld-mW-8AG"/>
+                                                    <constraint firstItem="983-o1-xGW" firstAttribute="leading" secondItem="qXi-3T-Rgi" secondAttribute="leading" constant="10" id="rBv-bd-sN5"/>
+                                                </constraints>
+                                            </view>
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nmF-Tc-Cac" customClass="SwiftyStarRatingView" customModule="SwiftyStarRatingView">
+                                                <rect key="frame" x="10" y="40" width="80" height="20"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" red="0.90588235289999997" green="0.70588235290000001" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="42S-94-8Qj"/>
+                                                    <constraint firstAttribute="height" constant="20" id="dih-7t-Hp9"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="nmF-Tc-Cac" firstAttribute="leading" secondItem="Iw8-qO-YZa" secondAttribute="leading" constant="10" id="OQl-GS-Pzo"/>
+                                            <constraint firstItem="nmF-Tc-Cac" firstAttribute="top" secondItem="qXi-3T-Rgi" secondAttribute="bottom" id="PUh-BU-sfX"/>
+                                            <constraint firstItem="qXi-3T-Rgi" firstAttribute="leading" secondItem="Iw8-qO-YZa" secondAttribute="leading" id="S5c-PO-3Li"/>
+                                            <constraint firstItem="e9k-0v-6DK" firstAttribute="top" secondItem="Iw8-qO-YZa" secondAttribute="top" id="bNV-96-fAB"/>
+                                            <constraint firstAttribute="trailing" secondItem="qXi-3T-Rgi" secondAttribute="trailing" id="pay-TS-fDT"/>
+                                            <constraint firstItem="qXi-3T-Rgi" firstAttribute="top" secondItem="e9k-0v-6DK" secondAttribute="bottom" id="vVy-fy-ZhC"/>
+                                            <constraint firstItem="e9k-0v-6DK" firstAttribute="leading" secondItem="Iw8-qO-YZa" secondAttribute="leading" constant="10" id="zjr-Pf-nZM"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Iw8-qO-YZa" firstAttribute="top" secondItem="D7M-OU-5RO" secondAttribute="top" id="0tV-M5-pwV"/>
+                                    <constraint firstItem="wkQ-cd-oXT" firstAttribute="leading" secondItem="D7M-OU-5RO" secondAttribute="leading" constant="10" id="E9h-Ly-vxT"/>
+                                    <constraint firstAttribute="trailing" secondItem="Iw8-qO-YZa" secondAttribute="trailing" id="Rvo-5a-XNP"/>
+                                    <constraint firstAttribute="bottom" secondItem="Iw8-qO-YZa" secondAttribute="bottom" id="iFg-0r-xwQ"/>
+                                    <constraint firstItem="Iw8-qO-YZa" firstAttribute="leading" secondItem="wkQ-cd-oXT" secondAttribute="trailing" id="ldR-CF-4wO"/>
+                                    <constraint firstItem="wkQ-cd-oXT" firstAttribute="top" secondItem="D7M-OU-5RO" secondAttribute="top" id="qlB-IN-1q4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-CY-GUU">
+                                <rect key="frame" x="0.0" y="96" width="300" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbp-EF-ST0">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="35"/>
+                                        <color key="backgroundColor" red="0.8980392157" green="0.0" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="-25" minY="3" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Contact Barber" image="ICON_MOBILENUMBER">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Qbp-EF-ST0" secondAttribute="trailing" id="Fp1-zw-fJ2"/>
+                                    <constraint firstAttribute="height" constant="35" id="P6l-lV-cjt"/>
+                                    <constraint firstItem="Qbp-EF-ST0" firstAttribute="leading" secondItem="uqR-CY-GUU" secondAttribute="leading" id="hGv-aM-5Qz"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qbp-EF-ST0" secondAttribute="bottom" id="qfW-57-ecV"/>
+                                    <constraint firstItem="Qbp-EF-ST0" firstAttribute="top" secondItem="uqR-CY-GUU" secondAttribute="top" id="yFB-E3-tLZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uqR-CY-GUU" firstAttribute="leading" secondItem="ccI-2H-jlQ" secondAttribute="leading" id="Ota-pJ-Gt8"/>
+                            <constraint firstItem="dE2-35-7Hs" firstAttribute="leading" secondItem="ccI-2H-jlQ" secondAttribute="leading" id="V76-Vz-b9n"/>
+                            <constraint firstAttribute="trailing" secondItem="D7M-OU-5RO" secondAttribute="trailing" id="VO9-EG-6gG"/>
+                            <constraint firstItem="dE2-35-7Hs" firstAttribute="top" secondItem="ccI-2H-jlQ" secondAttribute="top" id="Xaa-PO-XQy"/>
+                            <constraint firstItem="uqR-CY-GUU" firstAttribute="top" secondItem="D7M-OU-5RO" secondAttribute="bottom" id="c7e-A5-9Lt"/>
+                            <constraint firstAttribute="trailing" secondItem="dE2-35-7Hs" secondAttribute="trailing" id="h8w-GW-xrW"/>
+                            <constraint firstAttribute="trailing" secondItem="uqR-CY-GUU" secondAttribute="trailing" id="hhq-Xz-2oY"/>
+                            <constraint firstAttribute="bottom" secondItem="uqR-CY-GUU" secondAttribute="bottom" id="kjS-Os-sXi"/>
+                            <constraint firstItem="D7M-OU-5RO" firstAttribute="top" secondItem="dE2-35-7Hs" secondAttribute="bottom" id="lOb-lR-HcJ"/>
+                            <constraint firstItem="D7M-OU-5RO" firstAttribute="leading" secondItem="ccI-2H-jlQ" secondAttribute="leading" id="lWK-1Y-DTm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.78039215689999997" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="ccI-2H-jlQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="DuO-qs-Ccd"/>
+                    <constraint firstAttribute="bottom" secondItem="ccI-2H-jlQ" secondAttribute="bottom" constant="5" id="h52-0W-flH"/>
+                    <constraint firstAttribute="trailing" secondItem="ccI-2H-jlQ" secondAttribute="trailing" constant="10" id="jDH-ys-UDf"/>
+                    <constraint firstItem="ccI-2H-jlQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zs1-BN-hMr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ViewYourBarber" destination="dE2-35-7Hs" id="yBu-zH-pjI"/>
+                <outlet property="btnContactBarber" destination="Qbp-EF-ST0" id="hi6-Uf-dwT"/>
+                <outlet property="lblLastHairCut" destination="m4x-mF-bjD" id="ZFz-xJ-rrX"/>
+                <outlet property="lblName" destination="e9k-0v-6DK" id="yvy-NE-DLV"/>
+                <outlet property="starRatingVIew" destination="nmF-Tc-Cac" id="zWy-UI-vFK"/>
+                <outlet property="viewContactBarber" destination="uqR-CY-GUU" id="Rkw-HS-mSD"/>
+            </connections>
+            <point key="canvasLocation" x="99" y="-47"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ICON_MOBILENUMBER" width="11" height="11"/>
+        <image name="ICON_PROFILEIMAGE" width="62" height="62"/>
+    </resources>
+</document>

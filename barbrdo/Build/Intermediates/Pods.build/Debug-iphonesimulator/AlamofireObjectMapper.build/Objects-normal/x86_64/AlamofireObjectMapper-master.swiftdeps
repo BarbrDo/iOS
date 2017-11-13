@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "4c2407ee699713624c462deb4ea30925"
+build_time: [548312137, 315334000]
+inputs:
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [547027861, 0]

@@ -1,0 +1,143 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CAPSPageMenuConfiguration"
+provides-nominal:
+- "C8PageMenu25CAPSPageMenuConfiguration"
+provides-member:
+- ["C8PageMenu25CAPSPageMenuConfiguration", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BooleanLiteralType"
+- "CAPSPageMenuConfiguration"
+- "Int"
+- "UIColor"
+- "UIFont"
+- "Bool"
+- "CGFloat"
+depends-member:
+- ["Ps9AnyObject", "UIColor"]
+- ["Ps9AnyObject", "UIFont"]
+- ["Ps9AnyObject", "black"]
+- ["Ps9AnyObject", "lightGray"]
+- ["Ps9AnyObject", "systemFont"]
+- ["Ps9AnyObject", "white"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "Bool"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "CGFloat"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "Int"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "UIColor"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "UIFont"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "addBottomMenuHairline"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "bottomMenuHairlineColor"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "centerMenuItems"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "deinit"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "enableHorizontalBounce"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "hideTopMenuBar"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "init"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuHeight"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuItemFont"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuItemSeparatorColor"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuItemSeparatorPercentageHeight"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuItemSeparatorRoundEdges"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuItemSeparatorWidth"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuItemWidth"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuItemWidthBasedOnTitleTextWidth"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "menuMargin"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "scrollAnimationDurationOnMenuItemTap"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "scrollMenuBackgroundColor"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "selectedMenuItemLabelColor"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "selectionIndicatorColor"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "selectionIndicatorHeight"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "titleTextSizeBasedOnMenuItemWidth"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "unselectedMenuItemLabelColor"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "useMenuLikeSegmentedControl"]
+- ["C8PageMenu25CAPSPageMenuConfiguration", "viewBackgroundColor"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps7CVarArg", "black"]
+- ["Ps7CVarArg", "lightGray"]
+- ["Ps7CVarArg", "systemFont"]
+- ["Ps7CVarArg", "white"]
+- ["Ps28CustomDebugStringConvertible", "black"]
+- ["Ps28CustomDebugStringConvertible", "lightGray"]
+- ["Ps28CustomDebugStringConvertible", "systemFont"]
+- ["Ps28CustomDebugStringConvertible", "white"]
+- ["Ps23CustomStringConvertible", "black"]
+- ["Ps23CustomStringConvertible", "lightGray"]
+- ["Ps23CustomStringConvertible", "systemFont"]
+- ["Ps23CustomStringConvertible", "white"]
+- ["Ps9Equatable", "black"]
+- ["Ps9Equatable", "lightGray"]
+- ["Ps9Equatable", "systemFont"]
+- ["Ps9Equatable", "white"]
+- ["Ps8Hashable", "black"]
+- ["Ps8Hashable", "lightGray"]
+- ["Ps8Hashable", "systemFont"]
+- ["Ps8Hashable", "white"]
+- ["Si", "deinit"]
+- ["PSo8NSCoding", "black"]
+- ["PSo8NSCoding", "lightGray"]
+- ["PSo8NSCoding", "white"]
+- ["PSo9NSCopying", "black"]
+- ["PSo9NSCopying", "lightGray"]
+- ["PSo9NSCopying", "systemFont"]
+- ["PSo9NSCopying", "white"]
+- ["CSo8NSObject", "black"]
+- ["CSo8NSObject", "lightGray"]
+- ["CSo8NSObject", "systemFont"]
+- ["CSo8NSObject", "white"]
+- ["PSo16NSObjectProtocol", "black"]
+- ["PSo16NSObjectProtocol", "lightGray"]
+- ["PSo16NSObjectProtocol", "systemFont"]
+- ["PSo16NSObjectProtocol", "white"]
+- ["PSo14NSSecureCoding", "black"]
+- ["PSo14NSSecureCoding", "lightGray"]
+- ["PSo14NSSecureCoding", "white"]
+- ["CSo7UIColor", "black"]
+- ["CSo7UIColor", "deinit"]
+- ["CSo7UIColor", "lightGray"]
+- ["CSo7UIColor", "white"]
+- ["CSo6UIFont", "deinit"]
+- ["CSo6UIFont", "systemFont"]
+- ["Ps26_ExpressibleByColorLiteral", "black"]
+- ["Ps26_ExpressibleByColorLiteral", "lightGray"]
+- ["Ps26_ExpressibleByColorLiteral", "white"]
+- ["Ps9_Hashable", "black"]
+- ["Ps9_Hashable", "lightGray"]
+- ["Ps9_Hashable", "systemFont"]
+- ["Ps9_Hashable", "white"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "C8PageMenu25CAPSPageMenuConfiguration"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "Si"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo7UIColor"
+- "CSo6UIFont"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/PageMenu/PageMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/PageMenu.build/unextended-module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "2ccf9a885c3910e6bae0b0c174efa786"

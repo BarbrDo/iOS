@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Berlin Sans FB Regular.ttf">
+            <string>BerlinSansFB-Reg</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="32" id="KGk-i7-Jjw" customClass="BRD_Customer_Appointment_SummaryofServices_TableViewCell" customModule="BarbrDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="32.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="32"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sq-fm-QqW">
+                        <rect key="frame" x="10" y="5" width="300" height="27"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary of Services" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMf-lr-f3v">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="26"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="Y8o-4h-fXQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="14"/>
+                                <color key="textColor" red="0.32549019607843138" green="0.33333333333333331" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8U-za-6XE">
+                                <rect key="frame" x="0.0" y="26" width="300" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="hne-In-5xK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="v8U-za-6XE" secondAttribute="trailing" id="PxX-4Y-PHO"/>
+                            <constraint firstAttribute="trailing" secondItem="fMf-lr-f3v" secondAttribute="trailing" id="QZ0-Md-l1g"/>
+                            <constraint firstAttribute="bottom" secondItem="v8U-za-6XE" secondAttribute="bottom" id="ZxR-m1-8at"/>
+                            <constraint firstItem="fMf-lr-f3v" firstAttribute="top" secondItem="2sq-fm-QqW" secondAttribute="top" id="aFw-n0-pDM"/>
+                            <constraint firstItem="fMf-lr-f3v" firstAttribute="leading" secondItem="2sq-fm-QqW" secondAttribute="leading" id="jet-A2-4ds"/>
+                            <constraint firstItem="v8U-za-6XE" firstAttribute="leading" secondItem="2sq-fm-QqW" secondAttribute="leading" id="oOf-f2-gSX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.78039215689999997" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="2sq-fm-QqW" secondAttribute="trailing" constant="10" id="4fB-vb-aHY"/>
+                    <constraint firstAttribute="bottom" secondItem="2sq-fm-QqW" secondAttribute="bottom" id="EI8-NC-6EF"/>
+                    <constraint firstItem="2sq-fm-QqW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Lp4-D9-pUC"/>
+                    <constraint firstItem="2sq-fm-QqW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="yUe-94-nln"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="viewSummary" destination="2sq-fm-QqW" id="8En-bW-C0Z"/>
+            </connections>
+            <point key="canvasLocation" x="-142" y="-360"/>
+        </tableViewCell>
+    </objects>
+</document>

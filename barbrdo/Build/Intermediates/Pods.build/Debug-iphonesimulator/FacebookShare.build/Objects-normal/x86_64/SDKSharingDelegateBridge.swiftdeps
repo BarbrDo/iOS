@@ -1,0 +1,350 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SDKSharingDelegateBridge"
+provides-nominal:
+- "C13FacebookShare24SDKSharingDelegateBridge"
+provides-member:
+- ["C13FacebookShare24SDKSharingDelegateBridge", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BridgingFailedError"
+- "NSObject"
+- !private "Unmanaged"
+- "Error"
+- "FBSDKSharing"
+- !private "objc_setAssociatedObject"
+- !private "NSError"
+- "ContentProtocol"
+- "AnyHashable"
+- "FBSDKSharingDelegate"
+- "ContentSharerResult"
+- !private "??"
+- "AssignmentPrecedence"
+- "SDKSharingDelegateBridge"
+- "CastingPrecedence"
+- "Void"
+- !private "String"
+- !private "ShareError"
+depends-member:
+- !private ["Vs11AnyHashable", "deinit"]
+- !private ["Ps9AnyObject", "BridgingFailedError"]
+- !private ["Ps9AnyObject", "Content"]
+- !private ["Ps9AnyObject", "ContentSharerResult"]
+- !private ["Ps9AnyObject", "ShareError"]
+- !private ["Ps9AnyObject", "Unmanaged"]
+- ["Ps9AnyObject", "completion"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "objc_setAssociatedObject"]
+- ["Ps9AnyObject", "setupAsDelegateFor"]
+- ["Ps9AnyObject", "sharer"]
+- ["Ps9AnyObject", "sharerDidCancel"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "BridgingFailedError"]
+- !private ["Ps7CVarArg", "Content"]
+- !private ["Ps7CVarArg", "ContentSharerResult"]
+- !private ["Ps7CVarArg", "ShareError"]
+- !private ["Ps7CVarArg", "Unmanaged"]
+- ["Ps7CVarArg", "completion"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keyValueFlatMap"]
+- !private ["Ps7CVarArg", "objc_setAssociatedObject"]
+- ["Ps7CVarArg", "setupAsDelegateFor"]
+- ["Ps7CVarArg", "sharer"]
+- ["Ps7CVarArg", "sharerDidCancel"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "keyValueFlatMap"]
+- !private ["P13FacebookShare15ContentProtocol", "Result"]
+- !private ["O13FacebookShare19ContentSharerResult", "cancelled"]
+- ["O13FacebookShare19ContentSharerResult", "deinit"]
+- !private ["O13FacebookShare19ContentSharerResult", "failed"]
+- !private ["O13FacebookShare19ContentSharerResult", "success"]
+- !private ["P13FacebookShare28ContentSharingResultProtocol", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "BridgingFailedError"]
+- !private ["Ps28CustomDebugStringConvertible", "Content"]
+- !private ["Ps28CustomDebugStringConvertible", "ContentSharerResult"]
+- !private ["Ps28CustomDebugStringConvertible", "ShareError"]
+- !private ["Ps28CustomDebugStringConvertible", "Unmanaged"]
+- ["Ps28CustomDebugStringConvertible", "completion"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyValueFlatMap"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_setAssociatedObject"]
+- ["Ps28CustomDebugStringConvertible", "setupAsDelegateFor"]
+- ["Ps28CustomDebugStringConvertible", "sharer"]
+- ["Ps28CustomDebugStringConvertible", "sharerDidCancel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "keyValueFlatMap"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "BridgingFailedError"]
+- !private ["Ps23CustomStringConvertible", "Content"]
+- !private ["Ps23CustomStringConvertible", "ContentSharerResult"]
+- !private ["Ps23CustomStringConvertible", "ShareError"]
+- !private ["Ps23CustomStringConvertible", "Unmanaged"]
+- ["Ps23CustomStringConvertible", "completion"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyValueFlatMap"]
+- !private ["Ps23CustomStringConvertible", "objc_setAssociatedObject"]
+- ["Ps23CustomStringConvertible", "setupAsDelegateFor"]
+- ["Ps23CustomStringConvertible", "sharer"]
+- ["Ps23CustomStringConvertible", "sharerDidCancel"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "keyValueFlatMap"]
+- !private ["Ps9Equatable", "BridgingFailedError"]
+- !private ["Ps9Equatable", "Content"]
+- !private ["Ps9Equatable", "ContentSharerResult"]
+- !private ["Ps9Equatable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps9Equatable", "ShareError"]
+- !private ["Ps9Equatable", "Unmanaged"]
+- ["Ps9Equatable", "completion"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objc_setAssociatedObject"]
+- ["Ps9Equatable", "setupAsDelegateFor"]
+- ["Ps9Equatable", "sharer"]
+- ["Ps9Equatable", "sharerDidCancel"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "_code"]
+- !private ["Ps5Error", "_domain"]
+- !private ["Ps5Error", "_getEmbeddedNSError"]
+- !private ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps5Error", ""]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "keyValueFlatMap"]
+- !private ["Ps23ExpressibleByNilLiteral", "map"]
+- ["PSo12FBSDKSharing", "deinit"]
+- !private ["PSo12FBSDKSharing", "delegate"]
+- !private ["PSo20FBSDKSharingDelegate", "BridgingFailedError"]
+- !private ["PSo20FBSDKSharingDelegate", "Content"]
+- !private ["PSo20FBSDKSharingDelegate", "ContentSharerResult"]
+- !private ["PSo20FBSDKSharingDelegate", "ShareError"]
+- !private ["PSo20FBSDKSharingDelegate", "Unmanaged"]
+- !private ["PSo20FBSDKSharingDelegate", "completion"]
+- !private ["PSo20FBSDKSharingDelegate", "objc_setAssociatedObject"]
+- ["PSo20FBSDKSharingDelegate", "sharer"]
+- ["PSo20FBSDKSharingDelegate", "sharerDidCancel"]
+- ["PSo20FBSDKSharingDelegate", ""]
+- !private ["Ps8Hashable", "BridgingFailedError"]
+- !private ["Ps8Hashable", "Content"]
+- !private ["Ps8Hashable", "ContentSharerResult"]
+- !private ["Ps8Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps8Hashable", "ShareError"]
+- !private ["Ps8Hashable", "Unmanaged"]
+- ["Ps8Hashable", "completion"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "objc_setAssociatedObject"]
+- ["Ps8Hashable", "setupAsDelegateFor"]
+- ["Ps8Hashable", "sharer"]
+- ["Ps8Hashable", "sharerDidCancel"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "keyValueFlatMap"]
+- !private ["Ps13IndexableBase", "keyValueFlatMap"]
+- ["CSo7NSError", "deinit"]
+- ["CSo8NSObject", "AnyHashable"]
+- !private ["CSo8NSObject", "BridgingFailedError"]
+- ["CSo8NSObject", "Content"]
+- ["CSo8NSObject", "ContentSharerResult"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "FBSDKSharing"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "ShareError"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "Unmanaged"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "completion"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objc_setAssociatedObject"]
+- ["CSo8NSObject", "setupAsDelegateFor"]
+- ["CSo8NSObject", "sharer"]
+- ["CSo8NSObject", "sharerDidCancel"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "BridgingFailedError"]
+- !private ["PSo16NSObjectProtocol", "Content"]
+- !private ["PSo16NSObjectProtocol", "ContentSharerResult"]
+- !private ["PSo16NSObjectProtocol", "ShareError"]
+- !private ["PSo16NSObjectProtocol", "Unmanaged"]
+- ["PSo16NSObjectProtocol", "completion"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objc_setAssociatedObject"]
+- ["PSo16NSObjectProtocol", "setupAsDelegateFor"]
+- ["PSo16NSObjectProtocol", "sharer"]
+- ["PSo16NSObjectProtocol", "sharerDidCancel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["Sq", "map"]
+- !private ["Ps16RawRepresentable", "OBJC_ASSOCIATION_RETAIN"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "AnyHashable"]
+- !private ["C13FacebookShare24SDKSharingDelegateBridge", "BridgingFailedError"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "Content"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "ContentSharerResult"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "Error"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "FBSDKSharing"]
+- !private ["C13FacebookShare24SDKSharingDelegateBridge", "NSError"]
+- !private ["C13FacebookShare24SDKSharingDelegateBridge", "ShareError"]
+- !private ["C13FacebookShare24SDKSharingDelegateBridge", "String"]
+- !private ["C13FacebookShare24SDKSharingDelegateBridge", "Unmanaged"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "Void"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "completion"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "deinit"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "init"]
+- !private ["C13FacebookShare24SDKSharingDelegateBridge", "objc_setAssociatedObject"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "setupAsDelegateFor"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "sharer"]
+- ["C13FacebookShare24SDKSharingDelegateBridge", "sharerDidCancel"]
+- !private ["Ps8Sequence", "keyValueFlatMap"]
+- !private ["O13FacebookShare10ShareError", "deinit"]
+- !private ["O13FacebookShare10ShareError", "init"]
+- !private ["SS", "deinit"]
+- ["Vs9Unmanaged", "deinit"]
+- !private ["Vs9Unmanaged", "passUnretained"]
+- !private ["Vs9Unmanaged", "toOpaque"]
+- ["Sv", "deinit"]
+- !private ["Ps9_Hashable", "BridgingFailedError"]
+- !private ["Ps9_Hashable", "Content"]
+- !private ["Ps9_Hashable", "ContentSharerResult"]
+- !private ["Ps9_Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["Ps9_Hashable", "ShareError"]
+- !private ["Ps9_Hashable", "Unmanaged"]
+- ["Ps9_Hashable", "completion"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "objc_setAssociatedObject"]
+- ["Ps9_Hashable", "setupAsDelegateFor"]
+- ["Ps9_Hashable", "sharer"]
+- ["Ps9_Hashable", "sharerDidCancel"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "keyValueFlatMap"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN"]
+- ["OSC22objc_AssociationPolicy", "deinit"]
+depends-nominal:
+- !private "Vs11AnyHashable"
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "P13FacebookShare15ContentProtocol"
+- "O13FacebookShare19ContentSharerResult"
+- !private "P13FacebookShare28ContentSharingResultProtocol"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "PSo12FBSDKSharing"
+- "PSo20FBSDKSharingDelegate"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "CSo7NSError"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "C13FacebookShare24SDKSharingDelegateBridge"
+- !private "Ps8Sequence"
+- !private "O13FacebookShare10ShareError"
+- !private "SS"
+- "Vs9Unmanaged"
+- "Sv"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FacebookShare/FacebookShare-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/Pods.build/Debug-iphonesimulator/FacebookShare.build/unextended-module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFTask+Exceptions.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKShareKit.build/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/Pods.build/Debug-iphonesimulator/FacebookCore.build/module.modulemap"
+interface-hash: "9133ca617fb10fef5b24dfcd38b043c7"

@@ -1,0 +1,10 @@
+framework module SwiftyStarRatingView {
+  umbrella header "SwiftyStarRatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyStarRatingView.__Swift {
+    exclude header "SwiftyStarRatingView-Swift.h"
+}

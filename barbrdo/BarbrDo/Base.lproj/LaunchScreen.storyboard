@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9Ek-Nh-Bsc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="znH-xr-aQJ">
+            <objects>
+                <viewController id="9Ek-Nh-Bsc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oFu-Rf-btf"/>
+                        <viewControllerLayoutGuide type="bottom" id="m0E-NW-Rgr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d2U-lA-zFp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main_BG" translatesAutoresizingMaskIntoConstraints="NO" id="bs0-k8-iYf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login_ICON" translatesAutoresizingMaskIntoConstraints="NO" id="jTp-BY-9zP">
+                                <rect key="frame" x="97" y="193" width="180" height="280"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jTp-BY-9zP" secondAttribute="trailing" constant="98" id="3lU-4R-eXx"/>
+                            <constraint firstItem="bs0-k8-iYf" firstAttribute="top" secondItem="d2U-lA-zFp" secondAttribute="top" id="FBN-5E-eBe"/>
+                            <constraint firstItem="m0E-NW-Rgr" firstAttribute="top" secondItem="bs0-k8-iYf" secondAttribute="bottom" id="LQS-b8-BH0"/>
+                            <constraint firstAttribute="trailing" secondItem="jTp-BY-9zP" secondAttribute="trailing" constant="98" id="Mla-MJ-0WS"/>
+                            <constraint firstItem="jTp-BY-9zP" firstAttribute="top" secondItem="oFu-Rf-btf" secondAttribute="bottom" constant="173" id="QOk-N4-hBw"/>
+                            <constraint firstItem="m0E-NW-Rgr" firstAttribute="top" secondItem="jTp-BY-9zP" secondAttribute="bottom" constant="194" id="hQ2-9g-faJ"/>
+                            <constraint firstAttribute="trailing" secondItem="bs0-k8-iYf" secondAttribute="trailing" id="i5G-Dq-BZC"/>
+                            <constraint firstItem="jTp-BY-9zP" firstAttribute="leading" secondItem="d2U-lA-zFp" secondAttribute="leading" constant="97" id="mZd-Qy-rtd"/>
+                            <constraint firstItem="bs0-k8-iYf" firstAttribute="leading" secondItem="d2U-lA-zFp" secondAttribute="leading" id="sQb-2p-0u4"/>
+                            <constraint firstItem="jTp-BY-9zP" firstAttribute="leading" secondItem="d2U-lA-zFp" secondAttribute="leading" constant="97" id="w1P-qA-dBM"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mmb-sv-K9j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Login_ICON" width="97" height="140"/>
+        <image name="Main_BG" width="320" height="568"/>
+    </resources>
+</document>

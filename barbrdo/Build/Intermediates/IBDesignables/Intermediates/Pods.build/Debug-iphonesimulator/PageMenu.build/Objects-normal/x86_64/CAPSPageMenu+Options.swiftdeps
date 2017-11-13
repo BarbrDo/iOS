@@ -1,0 +1,62 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CAPSPageMenuOption"
+provides-nominal:
+- "O8PageMenu18CAPSPageMenuOption"
+provides-member:
+- ["O8PageMenu18CAPSPageMenuOption", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- "CGFloat"
+- "UIFont"
+- "Bool"
+- "UIColor"
+- "CAPSPageMenuOption"
+depends-member:
+- ["O8PageMenu18CAPSPageMenuOption", "Bool"]
+- ["O8PageMenu18CAPSPageMenuOption", "CGFloat"]
+- ["O8PageMenu18CAPSPageMenuOption", "Int"]
+- ["O8PageMenu18CAPSPageMenuOption", "UIColor"]
+- ["O8PageMenu18CAPSPageMenuOption", "UIFont"]
+- ["O8PageMenu18CAPSPageMenuOption", "addBottomMenuHairline"]
+- ["O8PageMenu18CAPSPageMenuOption", "bottomMenuHairlineColor"]
+- ["O8PageMenu18CAPSPageMenuOption", "centerMenuItems"]
+- ["O8PageMenu18CAPSPageMenuOption", "enableHorizontalBounce"]
+- ["O8PageMenu18CAPSPageMenuOption", "hideTopMenuBar"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuHeight"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemFont"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemMargin"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemSeparatorColor"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemSeparatorPercentageHeight"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemSeparatorRoundEdges"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemSeparatorWidth"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemWidth"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuItemWidthBasedOnTitleTextWidth"]
+- ["O8PageMenu18CAPSPageMenuOption", "menuMargin"]
+- ["O8PageMenu18CAPSPageMenuOption", "scrollAnimationDurationOnMenuItemTap"]
+- ["O8PageMenu18CAPSPageMenuOption", "scrollMenuBackgroundColor"]
+- ["O8PageMenu18CAPSPageMenuOption", "selectedMenuItemLabelColor"]
+- ["O8PageMenu18CAPSPageMenuOption", "selectionIndicatorColor"]
+- ["O8PageMenu18CAPSPageMenuOption", "selectionIndicatorHeight"]
+- ["O8PageMenu18CAPSPageMenuOption", "titleTextSizeBasedOnMenuItemWidth"]
+- ["O8PageMenu18CAPSPageMenuOption", "unselectedMenuItemLabelColor"]
+- ["O8PageMenu18CAPSPageMenuOption", "useMenuLikeSegmentedControl"]
+- ["O8PageMenu18CAPSPageMenuOption", "viewBackgroundColor"]
+depends-nominal:
+- "O8PageMenu18CAPSPageMenuOption"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/PageMenu/PageMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/PageMenu.build/unextended-module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "1b348fc535952e7b52b3a6c51e4d70fd"

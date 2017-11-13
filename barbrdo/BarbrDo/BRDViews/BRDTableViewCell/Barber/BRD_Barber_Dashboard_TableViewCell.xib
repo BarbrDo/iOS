@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Berlin Sans FB Regular.ttf">
+            <string>BerlinSansFB-Reg</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BRD_Barber_Dashboard_TableViewCell_CellIdentifier" rowHeight="122" id="KGk-i7-Jjw" customClass="BRD_Barber_Dashboard_TableViewCell" customModule="BarbrDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="80.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRD-w6-cp7">
+                        <rect key="frame" x="5" y="3" width="390" height="74"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON_PROFILEIMAGE" translatesAutoresizingMaskIntoConstraints="NO" id="5Op-bP-NoL">
+                                <rect key="frame" x="10" y="7" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="UjP-mW-kLU"/>
+                                    <constraint firstAttribute="width" constant="60" id="j79-CA-YOS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pop's Barber Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHQ-kV-zLW" customClass="BRD_UILabel" customModule="BarbrDo" customModuleProvider="target">
+                                <rect key="frame" x="80" y="6" width="300" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="5C7-IQ-T73"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZrD-ax-DBi">
+                                <rect key="frame" x="70" y="24" width="310" height="25"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TBM-i2-ttF">
+                                        <rect key="frame" x="0.0" y="0.0" width="230" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cut:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDl-qj-beA">
+                                                <rect key="frame" x="10" y="0.0" width="19" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="47k-vD-7V1"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March 11 @ 10 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAk-gl-FZY">
+                                                <rect key="frame" x="34" y="0.0" width="78.5" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="Rrq-YT-wPr"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="cAk-gl-FZY" firstAttribute="top" secondItem="TBM-i2-ttF" secondAttribute="top" id="20u-QC-3sB"/>
+                                            <constraint firstItem="KDl-qj-beA" firstAttribute="leading" secondItem="TBM-i2-ttF" secondAttribute="leading" constant="10" id="kBt-Ix-liF"/>
+                                            <constraint firstItem="cAk-gl-FZY" firstAttribute="leading" secondItem="KDl-qj-beA" secondAttribute="trailing" constant="5" id="moV-bv-GYj"/>
+                                            <constraint firstItem="KDl-qj-beA" firstAttribute="top" secondItem="TBM-i2-ttF" secondAttribute="top" id="o4K-PQ-Uct"/>
+                                            <constraint firstAttribute="height" constant="25" id="wI0-y5-pFy"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSv-Ey-CCU">
+                                        <rect key="frame" x="230" y="2" width="70" height="22"/>
+                                        <color key="backgroundColor" red="0.1333333333" green="0.22352941179999999" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="9w4-nO-0nf"/>
+                                            <constraint firstAttribute="height" constant="22" id="hPW-k7-2Tk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                        <state key="normal" title="Details">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gSv-Ey-CCU" secondAttribute="trailing" constant="10" id="8lH-pE-NP0"/>
+                                    <constraint firstItem="gSv-Ey-CCU" firstAttribute="leading" secondItem="TBM-i2-ttF" secondAttribute="trailing" id="J4L-7D-yKV"/>
+                                    <constraint firstItem="TBM-i2-ttF" firstAttribute="leading" secondItem="ZrD-ax-DBi" secondAttribute="leading" id="Vy9-8v-F9f"/>
+                                    <constraint firstItem="TBM-i2-ttF" firstAttribute="top" secondItem="ZrD-ax-DBi" secondAttribute="top" id="ZiT-Rm-gX9"/>
+                                    <constraint firstItem="gSv-Ey-CCU" firstAttribute="top" secondItem="ZrD-ax-DBi" secondAttribute="top" constant="1.5" id="c6f-iX-tmx"/>
+                                    <constraint firstAttribute="height" constant="25" id="inl-nM-L7s"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PUQ-1L-VQ6">
+                                <rect key="frame" x="70" y="49" width="310" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP8-cJ-iNO">
+                                        <rect key="frame" x="10" y="0.0" width="42" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="4ef-FT-kcZ"/>
+                                            <constraint firstAttribute="height" constant="25" id="OKi-ka-KXp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="4ef-FT-kcZ"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pop's Barber Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWO-R2-Owp">
+                                        <rect key="frame" x="57" y="0.0" width="84" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="EgT-Xr-ELr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="NWO-R2-Owp" firstAttribute="leading" secondItem="PP8-cJ-iNO" secondAttribute="trailing" constant="5" id="1B6-7t-opm"/>
+                                    <constraint firstItem="PP8-cJ-iNO" firstAttribute="top" secondItem="PUQ-1L-VQ6" secondAttribute="top" id="CwJ-lx-kbE"/>
+                                    <constraint firstItem="NWO-R2-Owp" firstAttribute="top" secondItem="PUQ-1L-VQ6" secondAttribute="top" id="rAl-tV-vuo"/>
+                                    <constraint firstItem="PP8-cJ-iNO" firstAttribute="leading" secondItem="PUQ-1L-VQ6" secondAttribute="leading" constant="10" id="tVr-yD-CMY"/>
+                                    <constraint firstAttribute="height" constant="25" id="wUD-2j-1eT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Op-bP-NoL" firstAttribute="leading" secondItem="uRD-w6-cp7" secondAttribute="leading" constant="10" id="B1o-b2-Iqw"/>
+                            <constraint firstAttribute="trailing" secondItem="ZrD-ax-DBi" secondAttribute="trailing" constant="10" id="Beg-yu-2Lc"/>
+                            <constraint firstAttribute="trailing" secondItem="PUQ-1L-VQ6" secondAttribute="trailing" constant="10" id="CRq-g0-vNS"/>
+                            <constraint firstItem="PUQ-1L-VQ6" firstAttribute="leading" secondItem="5Op-bP-NoL" secondAttribute="trailing" id="MIy-kB-lkP"/>
+                            <constraint firstAttribute="trailing" secondItem="lHQ-kV-zLW" secondAttribute="trailing" constant="10" id="PAk-KP-Lt5"/>
+                            <constraint firstItem="5Op-bP-NoL" firstAttribute="top" secondItem="uRD-w6-cp7" secondAttribute="top" constant="7" id="S2i-uI-VcB"/>
+                            <constraint firstItem="PUQ-1L-VQ6" firstAttribute="top" secondItem="ZrD-ax-DBi" secondAttribute="bottom" id="dif-Dh-Gds"/>
+                            <constraint firstItem="ZrD-ax-DBi" firstAttribute="top" secondItem="uRD-w6-cp7" secondAttribute="top" constant="24" id="heI-0h-Ffo"/>
+                            <constraint firstItem="lHQ-kV-zLW" firstAttribute="leading" secondItem="5Op-bP-NoL" secondAttribute="trailing" constant="10" id="rjx-ti-Wa2"/>
+                            <constraint firstItem="lHQ-kV-zLW" firstAttribute="top" secondItem="uRD-w6-cp7" secondAttribute="top" constant="6" id="s26-vu-tVM"/>
+                            <constraint firstItem="ZrD-ax-DBi" firstAttribute="leading" secondItem="5Op-bP-NoL" secondAttribute="trailing" id="w00-t6-EVM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="uRD-w6-cp7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="23M-dh-BDH"/>
+                    <constraint firstItem="uRD-w6-cp7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="NFq-5Q-5hS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="uRD-w6-cp7" secondAttribute="trailing" constant="-3" id="NUW-mR-V1y"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="uRD-w6-cp7" secondAttribute="bottom" constant="-4.5" id="nFo-fo-TIa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnDetail" destination="gSv-Ey-CCU" id="Spd-dx-IVG"/>
+                <outlet property="lblCutSchdeule" destination="cAk-gl-FZY" id="A3H-FW-m69"/>
+                <outlet property="lblEvent" destination="PP8-cJ-iNO" id="KDd-Mc-4nI"/>
+                <outlet property="lblEventValue" destination="NWO-R2-Owp" id="pFf-oC-Fid"/>
+                <outlet property="lblName" destination="lHQ-kV-zLW" id="fp6-Sz-E3v"/>
+                <outlet property="userImage" destination="5Op-bP-NoL" id="25r-l1-YwW"/>
+            </connections>
+            <point key="canvasLocation" x="-6" y="-361"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ICON_PROFILEIMAGE" width="62" height="62"/>
+    </resources>
+</document>

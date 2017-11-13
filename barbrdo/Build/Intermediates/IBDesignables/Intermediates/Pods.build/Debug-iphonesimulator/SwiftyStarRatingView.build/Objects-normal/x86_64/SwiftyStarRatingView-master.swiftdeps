@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "18a87bd5c62aaa9cdf616b11aa1d308e"
+build_time: [548312662, 539088000]
+inputs:
+  "/Users/vishwajeetk/Desktop/BarbrDo/Pods/SwiftyStarRatingView/Source/SwiftyStarRatingView.swift": [547546753, 0]

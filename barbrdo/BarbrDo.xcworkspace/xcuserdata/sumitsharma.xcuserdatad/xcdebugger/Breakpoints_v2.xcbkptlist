@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/BRDBookAppointmentVC.swift"
+            timestampString = "518033425.036168"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "BRDBookAppointmentVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_ProfileViewController.swift"
+            timestampString = "518037268.255148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "imageTapped(tapGestureRecognizer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_ProfileViewController.swift"
+            timestampString = "518037268.255148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "imageTapped(tapGestureRecognizer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_ProfilePhotoVC.swift"
+            timestampString = "519004833.44167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViews/UICollectionViewCell/BRD_Gallery_CollectionViewCell.swift"
+            timestampString = "517643485.271088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "initWithData(obj:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDBarberModule/BRD_Barber_ConfirmedAppointmentDetailVC.swift"
+            timestampString = "517772506.084922"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "406"
+            endingLineNumber = "406"
+            landmarkName = "btnConfirmAction()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BarbrDo.BRD_Barber_ConfirmedAppointmentDetailVC.((btnConfirmAction in _D184D66BFDA5C4CD8BBD58DB1C0EBA56) () -&gt; ()).(closure #2)"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDViewControllers/BRDBarberModule/BRD_Barber_ConfirmedAppointmentDetailVC.swift"
+                  timestampString = "519007609.423507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "406"
+                  endingLineNumber = "406"
+                  offsetFromSymbolStart = "373">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BarbrDo.BRD_Barber_ConfirmedAppointmentDetailVC.((btnConfirmAction in _D184D66BFDA5C4CD8BBD58DB1C0EBA56) () -&gt; ()).(closure #2).(closure #1)"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDViewControllers/BRDBarberModule/BRD_Barber_ConfirmedAppointmentDetailVC.swift"
+                  timestampString = "519007609.425452"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "407"
+                  endingLineNumber = "407"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_PayLaterVC.swift"
+            timestampString = "518400043.957352"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "tableView(_:viewForHeaderInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/Others/BusinessLayer.swift"
+            timestampString = "518031822.061872"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "updateAccount(_:imageData:imageType:dictionary:header:url:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/BRDBarbrDetailVC.swift"
+            timestampString = "518031749.945377"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "_getShopDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViews/BRDTableViewCell/BRD_Customer_ViewShops_TableViewCell.swift"
+            timestampString = "518033509.502337"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "initWithData(obj:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDModels/BRDAPIResponses/BRD_ShopDataBO.swift"
+            timestampString = "518034907.163993"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "init(dictionary:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_DashboardVC.swift"
+            timestampString = "518035856.280443"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "DashboardScreenbtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_ProfileViewController.swift"
+            timestampString = "518037268.255148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "saveButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+            timestampString = "518238667.672406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "iniWithData(obj:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+            timestampString = "518238679.928112"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "iniWithData(obj:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+            timestampString = "518238696.281291"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
+            landmarkName = "tableView(_:viewForFooterInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+            timestampString = "518238697.240805"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "363"
+            endingLineNumber = "363"
+            landmarkName = "tableView(_:viewForFooterInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BarbrDo.BRD_Customer_AppointmentDetail.tableView (__ObjC.UITableView, viewForHeaderInSection : Swift.Int) -&gt; Swift.Optional&lt;__ObjC.UIView&gt;"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+                  timestampString = "519007609.468216"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "1029">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BarbrDo.BRD_Customer_AppointmentDetail.tableView (__ObjC.UITableView, viewForHeaderInSection : Swift.Int) -&gt; Swift.Optional&lt;__ObjC.UIView&gt;"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+                  timestampString = "519007609.470167"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "1055">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BarbrDo.BRD_Customer_AppointmentDetail.tableView (__ObjC.UITableView, viewForHeaderInSection : Swift.Int) -&gt; Swift.Optional&lt;__ObjC.UIView&gt;"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+                  timestampString = "519007609.472005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "2062">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BarbrDo.BRD_Customer_AppointmentDetail.tableView (__ObjC.UITableView, viewForHeaderInSection : Swift.Int) -&gt; Swift.Optional&lt;__ObjC.UIView&gt;"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+                  timestampString = "519007609.473837"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "2503">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BarbrDo.BRD_Customer_AppointmentDetail.tableView (__ObjC.UITableView, viewForHeaderInSection : Swift.Int) -&gt; Swift.Optional&lt;__ObjC.UIView&gt;"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_AppointmentDetail.swift"
+                  timestampString = "519007609.475819"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "3532">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDViewControllers/BRDCustomerModule/BRD_Customer_CompletedVC.swift"
+            timestampString = "518239095.931066"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "_bookButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/BRDAppointmentVC.swift"
+            timestampString = "518406012.870969"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
+            landmarkName = "postApppointment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDModels/BRDAPIResponses/BRD_AppointmentsInfoBO.swift"
+            timestampString = "518402406.273902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "initWithPOSTRequest(_:inputParameters:header:urlComponent:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDModels/BRDAPIResponses/BRD_AppointmentsInfoBO.swift"
+            timestampString = "518402406.273902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "initWithPOSTRequest(_:inputParameters:header:urlComponent:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDModels/BRDAPIResponses/BRD_AppointmentsInfoBO.swift"
+            timestampString = "518402406.273902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "initWithPOSTRequest(_:inputParameters:header:urlComponent:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/BRDAppointmentVC.swift"
+            timestampString = "518402725.050736"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "postApppointment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/Others/BusinessLayer.swift"
+            timestampString = "519005137.72651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "searchShops(_:inputParameter:header:urlString:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BarbrDo.BRDAPI.searchShops (Swift.String, inputParameter : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, header : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, urlString : Swift.String, completionHandler : (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Optional&lt;Swift.Array&lt;BarbrDo.BRD_ShopDataBO&gt;&gt;, BarbrDo.ResponseStatus, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/BusinessLayer.swift"
+                  timestampString = "519007609.505411"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "323"
+                  endingLineNumber = "323"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BarbrDo.BRDAPI.(searchShops (Swift.String, inputParameter : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, header : Swift.Dictionary&lt;Swift.String, Swift.String&gt;, urlString : Swift.String, completionHandler : (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, Swift.Optional&lt;Swift.Array&lt;BarbrDo.BRD_ShopDataBO&gt;&gt;, BarbrDo.ResponseStatus, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "BarbrDo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sumitsharma/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/BusinessLayer.swift"
+                  timestampString = "519007609.507268"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "325"
+                  endingLineNumber = "325"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/Others/BusinessLayer.swift"
+            timestampString = "519005137.72651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "325"
+            endingLineNumber = "325"
+            landmarkName = "searchShops(_:inputParameter:header:urlString:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/Others/BusinessLayer.swift"
+            timestampString = "519005137.72651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "searchShops(_:inputParameter:header:urlString:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDAppoinment/BRDAppointmentVC.swift"
+            timestampString = "518405281.372045"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "postApppointment()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BarbrDo/BRDNetworks/CommunicationManager/BRD_CommunicationManager.swift"
+            timestampString = "518979439.307368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "getRequestUsingDictionaryParameters(_:urlComponent:inputParameters:header:completion:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

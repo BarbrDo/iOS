@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenGraphPropertyContaining"
+provides-nominal:
+- "P13FacebookShare27OpenGraphPropertyContaining"
+provides-member:
+- ["P13FacebookShare27OpenGraphPropertyContaining", ""]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "subscript"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "subscript"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "subscript"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "subscript"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "subscript"]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "CastingPrecedence"
+- "URL"
+- "Photo"
+- "Set"
+- "OpenGraphPropertyName"
+- "OpenGraphPropertyValue"
+- "OpenGraphPropertyContaining"
+- "NSNumber"
+depends-member:
+- ["Sa", "deinit"]
+- ["CSo8NSNumber", "deinit"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "NSNumber"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "OpenGraphPropertyName"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "OpenGraphPropertyValue"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "Photo"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "Set"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "String"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "URL"]
+- !private ["P13FacebookShare27OpenGraphPropertyContaining", "deinit"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "propertyNames"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", "subscript"]
+- ["P13FacebookShare27OpenGraphPropertyContaining", ""]
+- ["V13FacebookShare21OpenGraphPropertyName", "deinit"]
+- ["Sq", "deinit"]
+- ["V13FacebookShare5Photo", "deinit"]
+- ["SS", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+depends-nominal:
+- "Sa"
+- "CSo8NSNumber"
+- "P13FacebookShare27OpenGraphPropertyContaining"
+- "V13FacebookShare21OpenGraphPropertyName"
+- "Sq"
+- "V13FacebookShare5Photo"
+- "SS"
+- "V10Foundation3URL"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FacebookShare/FacebookShare-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/FacebookShare.build/unextended-module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/Bolts.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFTask.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFTask+Exceptions.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFExecutor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFURL.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Bolts.build/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FBSDKCoreKit/FBSDKCoreKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKCoreKit.build/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeControl.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKLikeButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupJoinDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupAddDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FBSDKShareKit/FBSDKShareKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/FBSDKShareKit.build/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/Target Support Files/FacebookCore/FacebookCore-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/FacebookCore.build/module.modulemap"
+interface-hash: "920628967191658c8b438302d2d48454"

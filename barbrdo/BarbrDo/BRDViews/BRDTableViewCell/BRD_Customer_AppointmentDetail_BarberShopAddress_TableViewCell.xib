@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Berlin Sans FB Regular.ttf">
+            <string>BerlinSansFB-Reg</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BRD_Customer_AppointmentDetail_BarberShopAddress_TableViewCell_CellIdentifier" rowHeight="109" id="KGk-i7-Jjw" customClass="BRD_Customer_AppointmentDetail_BarberShopAddress_TableViewCell" customModule="BarbrDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="109.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w2w-0w-X3q">
+                        <rect key="frame" x="10" y="5" width="300" height="99"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rtF-aQ-331">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barber Shop Address" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AgM-f7-ZGY">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="14"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="AgM-f7-ZGY" firstAttribute="top" secondItem="rtF-aQ-331" secondAttribute="top" id="EK0-xQ-3Tr"/>
+                                    <constraint firstAttribute="trailing" secondItem="AgM-f7-ZGY" secondAttribute="trailing" id="aLW-XX-e8d"/>
+                                    <constraint firstAttribute="bottom" secondItem="AgM-f7-ZGY" secondAttribute="bottom" id="bfk-We-OUq"/>
+                                    <constraint firstAttribute="height" constant="34" id="cys-kp-cB9"/>
+                                    <constraint firstItem="AgM-f7-ZGY" firstAttribute="leading" secondItem="rtF-aQ-331" secondAttribute="leading" id="wYn-bx-Oac"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uMG-gt-Wkp">
+                                <rect key="frame" x="0.0" y="34" width="300" height="65"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON_MAP_GREY" translatesAutoresizingMaskIntoConstraints="NO" id="oMq-vv-jtD">
+                                        <rect key="frame" x="10" y="24" width="12" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="rth-3s-98d"/>
+                                            <constraint firstAttribute="width" constant="12" id="sUr-Gp-qU5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pop's Barber Shop 123 Main Street Jersey City NY 07302" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bK1-3c-cfz">
+                                        <rect key="frame" x="27" y="9" width="150" height="47"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="47" id="XPg-W3-74h"/>
+                                            <constraint firstAttribute="width" constant="150" id="mNW-vH-akg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pe-49-nP5">
+                                        <rect key="frame" x="190" y="18" width="100" height="29"/>
+                                        <color key="backgroundColor" red="0.74509803919999995" green="0.043137254899999998" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="8X9-fX-lm4"/>
+                                            <constraint firstAttribute="width" constant="100" id="bB0-WH-yf8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="14"/>
+                                        <state key="normal" title="View on Map">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="oMq-vv-jtD" firstAttribute="leading" secondItem="uMG-gt-Wkp" secondAttribute="leading" constant="10" id="1fX-dj-4xP"/>
+                                    <constraint firstAttribute="height" constant="65" id="AjU-NU-Q2M"/>
+                                    <constraint firstItem="bK1-3c-cfz" firstAttribute="leading" secondItem="oMq-vv-jtD" secondAttribute="trailing" constant="5" id="PPn-9N-VuL"/>
+                                    <constraint firstAttribute="trailing" secondItem="0pe-49-nP5" secondAttribute="trailing" constant="10" id="QGP-aK-Udv"/>
+                                    <constraint firstItem="bK1-3c-cfz" firstAttribute="top" secondItem="uMG-gt-Wkp" secondAttribute="top" constant="9" id="Y9Y-WN-eJm"/>
+                                    <constraint firstItem="0pe-49-nP5" firstAttribute="top" secondItem="uMG-gt-Wkp" secondAttribute="top" constant="18" id="mfA-su-n9G"/>
+                                    <constraint firstItem="oMq-vv-jtD" firstAttribute="top" secondItem="uMG-gt-Wkp" secondAttribute="top" constant="24" id="t2P-1V-LbK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rtF-aQ-331" secondAttribute="trailing" id="9Rr-53-m1a"/>
+                            <constraint firstItem="rtF-aQ-331" firstAttribute="top" secondItem="w2w-0w-X3q" secondAttribute="top" id="ERz-SI-994"/>
+                            <constraint firstItem="uMG-gt-Wkp" firstAttribute="top" secondItem="rtF-aQ-331" secondAttribute="bottom" id="Snv-oc-mFg"/>
+                            <constraint firstItem="uMG-gt-Wkp" firstAttribute="leading" secondItem="w2w-0w-X3q" secondAttribute="leading" id="WcV-7C-Mn1"/>
+                            <constraint firstAttribute="trailing" secondItem="uMG-gt-Wkp" secondAttribute="trailing" id="dGk-IS-9Jl"/>
+                            <constraint firstItem="rtF-aQ-331" firstAttribute="leading" secondItem="w2w-0w-X3q" secondAttribute="leading" id="yAY-J2-s9B"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="w2w-0w-X3q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Qsj-2t-YzR"/>
+                    <constraint firstAttribute="trailing" secondItem="w2w-0w-X3q" secondAttribute="trailing" constant="10" id="YCs-ZQ-hE5"/>
+                    <constraint firstAttribute="bottom" secondItem="w2w-0w-X3q" secondAttribute="bottom" constant="5" id="mJy-XN-LUw"/>
+                    <constraint firstItem="w2w-0w-X3q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ro9-Uq-X3h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnShowOnMap" destination="0pe-49-nP5" id="F54-cV-sev"/>
+                <outlet property="lblAddress" destination="bK1-3c-cfz" id="nrg-pk-V0B"/>
+                <outlet property="viewBarberShopAddress" destination="rtF-aQ-331" id="kWo-35-1bf"/>
+                <outlet property="viewBarberShopMap" destination="uMG-gt-Wkp" id="eqY-YA-z0Z"/>
+            </connections>
+            <point key="canvasLocation" x="-20" y="-103.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ICON_MAP_GREY" width="21" height="30"/>
+    </resources>
+</document>

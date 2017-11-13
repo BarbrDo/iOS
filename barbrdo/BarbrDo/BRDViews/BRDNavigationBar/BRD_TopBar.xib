@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BRD_TopBar_CellIdentifier" id="XFU-qA-fdk" customClass="BRD_TopBar" customModule="BarbrDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XFU-qA-fdk" id="VBF-7h-J4Y">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acl-Md-wUd">
+                        <rect key="frame" x="10" y="35" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="nSi-At-qTY"/>
+                            <constraint firstAttribute="width" constant="32" id="xQa-tS-VO5"/>
+                        </constraints>
+                        <state key="normal" image="Back_Button"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON_NAVBAR_BARBRDO" translatesAutoresizingMaskIntoConstraints="NO" id="jrH-PM-inh">
+                        <rect key="frame" x="145.5" y="31" width="109" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="109" id="FHa-xz-KVr"/>
+                            <constraint firstAttribute="height" constant="39" id="JBL-BD-GPJ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON_PROFILEIMAGE" translatesAutoresizingMaskIntoConstraints="NO" id="Sai-7t-zwt">
+                        <rect key="frame" x="358" y="35" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="6lw-bU-oXS"/>
+                            <constraint firstAttribute="height" constant="32" id="zVz-vo-p1G"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9W-r2-p8j">
+                        <rect key="frame" x="358" y="35" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="H6M-kc-zgl"/>
+                            <constraint firstAttribute="height" constant="32" id="rln-Nh-b9y"/>
+                        </constraints>
+                    </button>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="BqC-eu-GEK">
+                        <rect key="frame" x="364" y="41" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="plH-tN-niS"/>
+                            <constraint firstAttribute="height" constant="20" id="yUq-um-GrT"/>
+                        </constraints>
+                    </activityIndicatorView>
+                </subviews>
+                <color key="backgroundColor" red="0.1450980392" green="0.2470588235" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="tintColor" red="0.1450980392" green="0.2470588235" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="Acl-Md-wUd" firstAttribute="leading" secondItem="VBF-7h-J4Y" secondAttribute="leading" constant="10" id="FJl-fc-1Fx"/>
+                    <constraint firstItem="jrH-PM-inh" firstAttribute="centerX" secondItem="VBF-7h-J4Y" secondAttribute="centerX" id="SkO-w0-LoA"/>
+                    <constraint firstAttribute="bottom" secondItem="Acl-Md-wUd" secondAttribute="bottom" constant="7.5" id="YKf-nr-9au"/>
+                    <constraint firstAttribute="bottom" secondItem="jrH-PM-inh" secondAttribute="bottom" constant="4.5" id="a3T-ky-0q7"/>
+                    <constraint firstAttribute="trailing" secondItem="BqC-eu-GEK" secondAttribute="trailing" constant="16" id="a3h-bw-EZ9"/>
+                    <constraint firstAttribute="bottom" secondItem="J9W-r2-p8j" secondAttribute="bottom" constant="7.5" id="cua-AI-hEO"/>
+                    <constraint firstAttribute="trailing" secondItem="J9W-r2-p8j" secondAttribute="trailing" constant="10" id="fF9-hs-VAs"/>
+                    <constraint firstAttribute="bottom" secondItem="Sai-7t-zwt" secondAttribute="bottom" constant="7.5" id="la9-Ba-JM1"/>
+                    <constraint firstAttribute="trailing" secondItem="Sai-7t-zwt" secondAttribute="trailing" constant="10" id="q7o-4q-F8k"/>
+                    <constraint firstAttribute="bottom" secondItem="BqC-eu-GEK" secondAttribute="bottom" constant="13.5" id="wZu-Xa-OAG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="activityIndicator" destination="BqC-eu-GEK" id="S2R-j3-uoa"/>
+                <outlet property="btnBack" destination="Acl-Md-wUd" id="hbA-iW-6OJ"/>
+                <outlet property="btnProfile" destination="J9W-r2-p8j" id="eh7-hq-7sG"/>
+                <outlet property="profileImage" destination="Sai-7t-zwt" id="bC7-UL-AKn"/>
+            </connections>
+            <point key="canvasLocation" x="-42" y="-1075"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Back_Button" width="20" height="20"/>
+        <image name="ICON_NAVBAR_BARBRDO" width="109" height="39"/>
+        <image name="ICON_PROFILEIMAGE" width="62" height="62"/>
+    </resources>
+</document>

@@ -1,0 +1,1357 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Method"
+- "ResponseStatus"
+- "ImageType"
+- "responseHandler"
+- "ConnectionManager"
+provides-nominal:
+- "O7BarbrDo6Method"
+- "O7BarbrDo14ResponseStatus"
+- "O7BarbrDo9ImageType"
+- "C7BarbrDo17ConnectionManager"
+provides-member:
+- ["O7BarbrDo6Method", ""]
+- ["O7BarbrDo14ResponseStatus", ""]
+- ["O7BarbrDo9ImageType", ""]
+- ["C7BarbrDo17ConnectionManager", ""]
+- ["CSo13NSMutableData", ""]
+- ["CSo13NSMutableData", "appendString"]
+provides-dynamic-lookup:
+- "appendString"
+- "shared"
+- "urlSession"
+- "urlSession"
+depends-top-level:
+- !private "print"
+- "Bool"
+- "responseHandler"
+- !private "NSError"
+- !private "JSONSerialization"
+- "NSObject"
+- "URLSession"
+- !private "TernaryPrecedence"
+- "BooleanLiteralType"
+- "NSMutableData"
+- !private "tokenExpirationCode"
+- !private "UnicodeScalarType"
+- "StringLiteralType"
+- "Swift"
+- "URLSessionDelegate"
+- "String"
+- "ResponseStatus"
+- !private "NSString"
+- !private "DispatchQueue"
+- !private "~="
+- "=="
+- "URLCredential"
+- "Void"
+- "ImageType"
+- !private ">"
+- !private "NSMutableURLRequest"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "URLSessionConfiguration"
+- !private "HTTPURLResponse"
+- !private "isInternetReachable"
+- "URLAuthenticationChallenge"
+- "Int"
+- "Data"
+- !private "NSDictionary"
+- "Error"
+- !private "NSUUID"
+- !private "URLRequest"
+- "ConnectionManager"
+- !private "succesCode"
+- !private "ExtendedGraphemeClusterType"
+- !private "URL"
+- !private "NSData"
+- "Method"
+depends-member:
+- ["Ps9AnyObject", "AuthChallengeDisposition"]
+- ["Ps9AnyObject", "ConnectionManager"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Encoding"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "NSMutableData"]
+- !private ["Ps9AnyObject", "NSMutableURLRequest"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "NSUUID"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLCredential"]
+- ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "URLSessionConfiguration"]
+- ["Ps9AnyObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps9AnyObject", "WritingOptions"]
+- ["Ps9AnyObject", "_createBodyWithParameters"]
+- ["Ps9AnyObject", "_generateBoundaryString"]
+- !private ["Ps9AnyObject", "addValue"]
+- !private ["Ps9AnyObject", "append"]
+- ["Ps9AnyObject", "appendString"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "httpBody"]
+- !private ["Ps9AnyObject", "httpMethod"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isInternetReachable"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "previousFailureCount"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "protectionSpace"]
+- !private ["Ps9AnyObject", "resume"]
+- ["Ps9AnyObject", "sendRequest"]
+- !private ["Ps9AnyObject", "serverTrust"]
+- !private ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "statusCode"]
+- !private ["Ps9AnyObject", "succesCode"]
+- !private ["Ps9AnyObject", "timeoutInterval"]
+- !private ["Ps9AnyObject", "tokenExpirationCode"]
+- ["Ps9AnyObject", "urlSession"]
+- ["Ps9AnyObject", "urlSessionDidFinishEvents"]
+- !private ["Ps9AnyObject", "uuidString"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- ["OCSo10URLSession24AuthChallengeDisposition", "deinit"]
+- !private ["OCSo10URLSession24AuthChallengeDisposition", "useCredential"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "AuthChallengeDisposition"]
+- ["Ps7CVarArg", "ConnectionManager"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "Encoding"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- !private ["Ps7CVarArg", "NSMutableData"]
+- !private ["Ps7CVarArg", "NSMutableURLRequest"]
+- !private ["Ps7CVarArg", "NSString"]
+- !private ["Ps7CVarArg", "NSUUID"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "URLCredential"]
+- ["Ps7CVarArg", "URLSession"]
+- !private ["Ps7CVarArg", "URLSessionConfiguration"]
+- ["Ps7CVarArg", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps7CVarArg", "WritingOptions"]
+- ["Ps7CVarArg", "_createBodyWithParameters"]
+- ["Ps7CVarArg", "_generateBoundaryString"]
+- !private ["Ps7CVarArg", "addValue"]
+- !private ["Ps7CVarArg", "append"]
+- ["Ps7CVarArg", "appendString"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dataTask"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "httpBody"]
+- !private ["Ps7CVarArg", "httpMethod"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isInternetReachable"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "previousFailureCount"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "protectionSpace"]
+- !private ["Ps7CVarArg", "resume"]
+- ["Ps7CVarArg", "sendRequest"]
+- !private ["Ps7CVarArg", "serverTrust"]
+- !private ["Ps7CVarArg", "setValue"]
+- ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "statusCode"]
+- !private ["Ps7CVarArg", "succesCode"]
+- !private ["Ps7CVarArg", "timeoutInterval"]
+- !private ["Ps7CVarArg", "tokenExpirationCode"]
+- ["Ps7CVarArg", "urlSession"]
+- ["Ps7CVarArg", "urlSessionDidFinishEvents"]
+- !private ["Ps7CVarArg", "uuidString"]
+- !private ["Ps7CVarArg", "value"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Comparable", "Encoding"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "data"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["C7BarbrDo17ConnectionManager", "Bool"]
+- ["C7BarbrDo17ConnectionManager", "ConnectionManager"]
+- ["C7BarbrDo17ConnectionManager", "Data"]
+- !private ["C7BarbrDo17ConnectionManager", "DispatchQueue"]
+- ["C7BarbrDo17ConnectionManager", "Error"]
+- !private ["C7BarbrDo17ConnectionManager", "HTTPURLResponse"]
+- ["C7BarbrDo17ConnectionManager", "ImageType"]
+- !private ["C7BarbrDo17ConnectionManager", "JSONSerialization"]
+- ["C7BarbrDo17ConnectionManager", "Method"]
+- !private ["C7BarbrDo17ConnectionManager", "NSData"]
+- !private ["C7BarbrDo17ConnectionManager", "NSDictionary"]
+- !private ["C7BarbrDo17ConnectionManager", "NSError"]
+- !private ["C7BarbrDo17ConnectionManager", "NSMutableData"]
+- !private ["C7BarbrDo17ConnectionManager", "NSMutableURLRequest"]
+- !private ["C7BarbrDo17ConnectionManager", "NSString"]
+- !private ["C7BarbrDo17ConnectionManager", "NSUUID"]
+- ["C7BarbrDo17ConnectionManager", "String"]
+- ["C7BarbrDo17ConnectionManager", "Swift"]
+- !private ["C7BarbrDo17ConnectionManager", "URL"]
+- ["C7BarbrDo17ConnectionManager", "URLAuthenticationChallenge"]
+- ["C7BarbrDo17ConnectionManager", "URLCredential"]
+- !private ["C7BarbrDo17ConnectionManager", "URLRequest"]
+- ["C7BarbrDo17ConnectionManager", "URLSession"]
+- !private ["C7BarbrDo17ConnectionManager", "URLSessionConfiguration"]
+- ["C7BarbrDo17ConnectionManager", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["C7BarbrDo17ConnectionManager", "Void"]
+- !private ["C7BarbrDo17ConnectionManager", "_createBodyWithParameters"]
+- !private ["C7BarbrDo17ConnectionManager", "_generateBoundaryString"]
+- ["C7BarbrDo17ConnectionManager", "deinit"]
+- ["C7BarbrDo17ConnectionManager", "init"]
+- !private ["C7BarbrDo17ConnectionManager", "isInternetReachable"]
+- !private ["C7BarbrDo17ConnectionManager", "print"]
+- ["C7BarbrDo17ConnectionManager", "responseHandler"]
+- ["C7BarbrDo17ConnectionManager", "sendRequest"]
+- ["C7BarbrDo17ConnectionManager", "shared"]
+- !private ["C7BarbrDo17ConnectionManager", "succesCode"]
+- !private ["C7BarbrDo17ConnectionManager", "tokenExpirationCode"]
+- ["C7BarbrDo17ConnectionManager", "urlSession"]
+- ["C7BarbrDo17ConnectionManager", "urlSessionDidFinishEvents"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "AuthChallengeDisposition"]
+- ["Ps28CustomDebugStringConvertible", "ConnectionManager"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Encoding"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableData"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUUID"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "URLCredential"]
+- ["Ps28CustomDebugStringConvertible", "URLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSessionConfiguration"]
+- ["Ps28CustomDebugStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "WritingOptions"]
+- ["Ps28CustomDebugStringConvertible", "_createBodyWithParameters"]
+- ["Ps28CustomDebugStringConvertible", "_generateBoundaryString"]
+- !private ["Ps28CustomDebugStringConvertible", "addValue"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "appendString"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "httpBody"]
+- !private ["Ps28CustomDebugStringConvertible", "httpMethod"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isInternetReachable"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "previousFailureCount"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "protectionSpace"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- ["Ps28CustomDebugStringConvertible", "sendRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "serverTrust"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "statusCode"]
+- !private ["Ps28CustomDebugStringConvertible", "succesCode"]
+- !private ["Ps28CustomDebugStringConvertible", "timeoutInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "tokenExpirationCode"]
+- ["Ps28CustomDebugStringConvertible", "urlSession"]
+- ["Ps28CustomDebugStringConvertible", "urlSessionDidFinishEvents"]
+- !private ["Ps28CustomDebugStringConvertible", "uuidString"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "data"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Encoding"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "data"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "value"]
+- ["Ps23CustomStringConvertible", "AuthChallengeDisposition"]
+- ["Ps23CustomStringConvertible", "ConnectionManager"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Encoding"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "NSMutableData"]
+- !private ["Ps23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "NSUUID"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "URLCredential"]
+- ["Ps23CustomStringConvertible", "URLSession"]
+- !private ["Ps23CustomStringConvertible", "URLSessionConfiguration"]
+- ["Ps23CustomStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps23CustomStringConvertible", "WritingOptions"]
+- ["Ps23CustomStringConvertible", "_createBodyWithParameters"]
+- ["Ps23CustomStringConvertible", "_generateBoundaryString"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "appendString"]
+- !private ["Ps23CustomStringConvertible", "ascii"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "httpBody"]
+- !private ["Ps23CustomStringConvertible", "httpMethod"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isInternetReachable"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "previousFailureCount"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "protectionSpace"]
+- !private ["Ps23CustomStringConvertible", "rawValue"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- ["Ps23CustomStringConvertible", "sendRequest"]
+- !private ["Ps23CustomStringConvertible", "serverTrust"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "statusCode"]
+- !private ["Ps23CustomStringConvertible", "succesCode"]
+- !private ["Ps23CustomStringConvertible", "timeoutInterval"]
+- !private ["Ps23CustomStringConvertible", "tokenExpirationCode"]
+- ["Ps23CustomStringConvertible", "urlSession"]
+- ["Ps23CustomStringConvertible", "urlSessionDidFinishEvents"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["Ps23CustomStringConvertible", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "IndexDistance"]
+- !private ["V10Foundation4Data", "count"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "main"]
+- ["Sd", "deinit"]
+- !private ["VE10FoundationSS8Encoding", "ascii"]
+- ["VE10FoundationSS8Encoding", "deinit"]
+- !private ["VE10FoundationSS8Encoding", "rawValue"]
+- !private ["VE10FoundationSS8Encoding", "utf8"]
+- ["Ps9Equatable", "AuthChallengeDisposition"]
+- ["Ps9Equatable", "ConnectionManager"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "Encoding"]
+- !private ["Ps9Equatable", "IndexDistance"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- !private ["Ps9Equatable", "NSMutableData"]
+- !private ["Ps9Equatable", "NSMutableURLRequest"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "NSUUID"]
+- !private ["Ps9Equatable", "POST"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "URLCredential"]
+- ["Ps9Equatable", "URLSession"]
+- !private ["Ps9Equatable", "URLSessionConfiguration"]
+- ["Ps9Equatable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps9Equatable", "WritingOptions"]
+- ["Ps9Equatable", "_createBodyWithParameters"]
+- ["Ps9Equatable", "_generateBoundaryString"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "addValue"]
+- !private ["Ps9Equatable", "append"]
+- ["Ps9Equatable", "appendString"]
+- !private ["Ps9Equatable", "ascii"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataTask"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "failed"]
+- !private ["Ps9Equatable", "forSession"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "httpBody"]
+- !private ["Ps9Equatable", "httpMethod"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "internetNotAvailable"]
+- !private ["Ps9Equatable", "isInternetReachable"]
+- !private ["Ps9Equatable", "jpeg"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "mutableLeaves"]
+- !private ["Ps9Equatable", "prettyPrinted"]
+- !private ["Ps9Equatable", "previousFailureCount"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "protectionSpace"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "resume"]
+- ["Ps9Equatable", "sendRequest"]
+- !private ["Ps9Equatable", "serverError"]
+- !private ["Ps9Equatable", "serverTrust"]
+- !private ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "statusCode"]
+- !private ["Ps9Equatable", "succesCode"]
+- !private ["Ps9Equatable", "success"]
+- !private ["Ps9Equatable", "timeoutInterval"]
+- !private ["Ps9Equatable", "tokenExpirationCode"]
+- !private ["Ps9Equatable", "tokenExpired"]
+- ["Ps9Equatable", "urlSession"]
+- ["Ps9Equatable", "urlSessionDidFinishEvents"]
+- !private ["Ps9Equatable", "useCredential"]
+- !private ["Ps9Equatable", "utf8"]
+- !private ["Ps9Equatable", "uuidString"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "RawValue"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "mutableLeaves"]
+- !private ["Ps25ExpressibleByArrayLiteral", "prettyPrinted"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "data"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "Encoding"]
+- !private ["Ps32ExpressibleByStringInterpolation", "data"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "Encoding"]
+- !private ["Ps26ExpressibleByStringLiteral", "data"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "data"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["CSo15HTTPURLResponse", "deinit"]
+- !private ["CSo15HTTPURLResponse", "statusCode"]
+- ["Ps8Hashable", "AuthChallengeDisposition"]
+- ["Ps8Hashable", "ConnectionManager"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "Encoding"]
+- !private ["Ps8Hashable", "IndexDistance"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- !private ["Ps8Hashable", "NSMutableData"]
+- !private ["Ps8Hashable", "NSMutableURLRequest"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "NSUUID"]
+- !private ["Ps8Hashable", "POST"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "URLCredential"]
+- ["Ps8Hashable", "URLSession"]
+- !private ["Ps8Hashable", "URLSessionConfiguration"]
+- ["Ps8Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps8Hashable", "WritingOptions"]
+- ["Ps8Hashable", "_createBodyWithParameters"]
+- ["Ps8Hashable", "_generateBoundaryString"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "addValue"]
+- !private ["Ps8Hashable", "append"]
+- ["Ps8Hashable", "appendString"]
+- !private ["Ps8Hashable", "ascii"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataTask"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "failed"]
+- !private ["Ps8Hashable", "forSession"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "httpBody"]
+- !private ["Ps8Hashable", "httpMethod"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "internetNotAvailable"]
+- !private ["Ps8Hashable", "isInternetReachable"]
+- !private ["Ps8Hashable", "jpeg"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "previousFailureCount"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "protectionSpace"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "resume"]
+- ["Ps8Hashable", "sendRequest"]
+- !private ["Ps8Hashable", "serverError"]
+- !private ["Ps8Hashable", "serverTrust"]
+- !private ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "statusCode"]
+- !private ["Ps8Hashable", "succesCode"]
+- !private ["Ps8Hashable", "success"]
+- !private ["Ps8Hashable", "timeoutInterval"]
+- !private ["Ps8Hashable", "tokenExpirationCode"]
+- !private ["Ps8Hashable", "tokenExpired"]
+- ["Ps8Hashable", "urlSession"]
+- ["Ps8Hashable", "urlSessionDidFinishEvents"]
+- !private ["Ps8Hashable", "useCredential"]
+- !private ["Ps8Hashable", "utf8"]
+- !private ["Ps8Hashable", "uuidString"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
+- ["O7BarbrDo9ImageType", "RawValue"]
+- ["O7BarbrDo9ImageType", "_toAnyHashable"]
+- ["O7BarbrDo9ImageType", "deinit"]
+- ["O7BarbrDo9ImageType", "hashValue"]
+- ["O7BarbrDo9ImageType", "init"]
+- ["O7BarbrDo9ImageType", "jpeg"]
+- ["O7BarbrDo9ImageType", "png"]
+- ["O7BarbrDo9ImageType", "rawValue"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Si", "Stride"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["CSo17JSONSerialization", "WritingOptions"]
+- !private ["CSo17JSONSerialization", "data"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "Encoding"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "data"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["O7BarbrDo6Method", "DELETE"]
+- ["O7BarbrDo6Method", "GET"]
+- ["O7BarbrDo6Method", "POST"]
+- ["O7BarbrDo6Method", "PUT"]
+- ["O7BarbrDo6Method", "RawValue"]
+- ["O7BarbrDo6Method", "_toAnyHashable"]
+- ["O7BarbrDo6Method", "deinit"]
+- ["O7BarbrDo6Method", "hashValue"]
+- ["O7BarbrDo6Method", "init"]
+- ["O7BarbrDo6Method", "rawValue"]
+- !private ["Ps10MirrorPath", "Encoding"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "data"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["PSo8NSCoding", "Encoding"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "addValue"]
+- !private ["PSo8NSCoding", "append"]
+- ["PSo8NSCoding", "appendString"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "httpBody"]
+- !private ["PSo8NSCoding", "httpMethod"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "previousFailureCount"]
+- !private ["PSo8NSCoding", "protectionSpace"]
+- !private ["PSo8NSCoding", "serverTrust"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo8NSCoding", "statusCode"]
+- !private ["PSo8NSCoding", "timeoutInterval"]
+- !private ["PSo8NSCoding", "uuidString"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo9NSCopying", "Encoding"]
+- !private ["PSo9NSCopying", "String"]
+- !private ["PSo9NSCopying", "addValue"]
+- !private ["PSo9NSCopying", "append"]
+- ["PSo9NSCopying", "appendString"]
+- !private ["PSo9NSCopying", "data"]
+- !private ["PSo9NSCopying", "default"]
+- !private ["PSo9NSCopying", "httpBody"]
+- !private ["PSo9NSCopying", "httpMethod"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "serverTrust"]
+- !private ["PSo9NSCopying", "setValue"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["PSo9NSCopying", "timeoutInterval"]
+- !private ["PSo9NSCopying", "uuidString"]
+- !private ["PSo9NSCopying", "value"]
+- ["CSo6NSData", "String"]
+- !private ["CSo6NSData", "append"]
+- ["CSo6NSData", "appendString"]
+- ["CSo6NSData", "deinit"]
+- !private ["CSo6NSData", "init"]
+- !private ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "value"]
+- ["CSo7NSError", "deinit"]
+- !private ["PSo17NSFastEnumeration", "value"]
+- !private ["PSo16NSMutableCopying", "Encoding"]
+- !private ["PSo16NSMutableCopying", "String"]
+- !private ["PSo16NSMutableCopying", "addValue"]
+- !private ["PSo16NSMutableCopying", "append"]
+- ["PSo16NSMutableCopying", "appendString"]
+- !private ["PSo16NSMutableCopying", "data"]
+- !private ["PSo16NSMutableCopying", "httpBody"]
+- !private ["PSo16NSMutableCopying", "httpMethod"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "setValue"]
+- !private ["PSo16NSMutableCopying", "timeoutInterval"]
+- !private ["PSo16NSMutableCopying", "value"]
+- ["CSo13NSMutableData", "String"]
+- !private ["CSo13NSMutableData", "append"]
+- ["CSo13NSMutableData", "appendString"]
+- ["CSo13NSMutableData", "deinit"]
+- !private ["CSo13NSMutableData", "init"]
+- !private ["CSo19NSMutableURLRequest", "addValue"]
+- ["CSo19NSMutableURLRequest", "deinit"]
+- !private ["CSo19NSMutableURLRequest", "httpBody"]
+- !private ["CSo19NSMutableURLRequest", "httpMethod"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo19NSMutableURLRequest", "setValue"]
+- !private ["CSo19NSMutableURLRequest", "timeoutInterval"]
+- ["CSo8NSObject", "AuthChallengeDisposition"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "ConnectionManager"]
+- ["CSo8NSObject", "Data"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- !private ["CSo8NSObject", "Encoding"]
+- ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "HTTPURLResponse"]
+- ["CSo8NSObject", "ImageType"]
+- !private ["CSo8NSObject", "JSONSerialization"]
+- ["CSo8NSObject", "Method"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSMutableData"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "NSUUID"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Swift"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "URLAuthenticationChallenge"]
+- ["CSo8NSObject", "URLCredential"]
+- !private ["CSo8NSObject", "URLRequest"]
+- ["CSo8NSObject", "URLSession"]
+- !private ["CSo8NSObject", "URLSessionConfiguration"]
+- ["CSo8NSObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "WritingOptions"]
+- ["CSo8NSObject", "_createBodyWithParameters"]
+- ["CSo8NSObject", "_generateBoundaryString"]
+- !private ["CSo8NSObject", "addValue"]
+- !private ["CSo8NSObject", "append"]
+- ["CSo8NSObject", "appendString"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dataTask"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "httpBody"]
+- !private ["CSo8NSObject", "httpMethod"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isInternetReachable"]
+- !private ["CSo8NSObject", "jsonObject"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "previousFailureCount"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "protectionSpace"]
+- ["CSo8NSObject", "responseHandler"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "sendRequest"]
+- !private ["CSo8NSObject", "serverTrust"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "statusCode"]
+- !private ["CSo8NSObject", "succesCode"]
+- !private ["CSo8NSObject", "timeoutInterval"]
+- !private ["CSo8NSObject", "tokenExpirationCode"]
+- ["CSo8NSObject", "urlSession"]
+- ["CSo8NSObject", "urlSessionDidFinishEvents"]
+- !private ["CSo8NSObject", "uuidString"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "AuthChallengeDisposition"]
+- ["PSo16NSObjectProtocol", "ConnectionManager"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "Encoding"]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NSMutableData"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSString"]
+- !private ["PSo16NSObjectProtocol", "NSUUID"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "URLCredential"]
+- ["PSo16NSObjectProtocol", "URLSession"]
+- !private ["PSo16NSObjectProtocol", "URLSessionConfiguration"]
+- ["PSo16NSObjectProtocol", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSo16NSObjectProtocol", "WritingOptions"]
+- ["PSo16NSObjectProtocol", "_createBodyWithParameters"]
+- ["PSo16NSObjectProtocol", "_generateBoundaryString"]
+- !private ["PSo16NSObjectProtocol", "addValue"]
+- !private ["PSo16NSObjectProtocol", "append"]
+- ["PSo16NSObjectProtocol", "appendString"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "httpBody"]
+- !private ["PSo16NSObjectProtocol", "httpMethod"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isInternetReachable"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "previousFailureCount"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "protectionSpace"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "sendRequest"]
+- !private ["PSo16NSObjectProtocol", "serverTrust"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- !private ["PSo16NSObjectProtocol", "succesCode"]
+- !private ["PSo16NSObjectProtocol", "timeoutInterval"]
+- !private ["PSo16NSObjectProtocol", "tokenExpirationCode"]
+- ["PSo16NSObjectProtocol", "urlSession"]
+- ["PSo16NSObjectProtocol", "urlSessionDidFinishEvents"]
+- !private ["PSo16NSObjectProtocol", "uuidString"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Encoding"]
+- !private ["PSo14NSSecureCoding", "String"]
+- !private ["PSo14NSSecureCoding", "addValue"]
+- !private ["PSo14NSSecureCoding", "append"]
+- ["PSo14NSSecureCoding", "appendString"]
+- !private ["PSo14NSSecureCoding", "data"]
+- !private ["PSo14NSSecureCoding", "httpBody"]
+- !private ["PSo14NSSecureCoding", "httpMethod"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "previousFailureCount"]
+- !private ["PSo14NSSecureCoding", "protectionSpace"]
+- !private ["PSo14NSSecureCoding", "serverTrust"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["PSo14NSSecureCoding", "timeoutInterval"]
+- !private ["PSo14NSSecureCoding", "uuidString"]
+- !private ["PSo14NSSecureCoding", "value"]
+- !private ["CSo8NSString", "Encoding"]
+- !private ["CSo8NSString", "data"]
+- ["CSo8NSString", "deinit"]
+- ["CSo8NSString", "init"]
+- !private ["CSo12NSURLRequest", "addValue"]
+- !private ["CSo12NSURLRequest", "httpBody"]
+- !private ["CSo12NSURLRequest", "httpMethod"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLRequest", "setValue"]
+- !private ["CSo12NSURLRequest", "timeoutInterval"]
+- !private ["CSo6NSUUID", "deinit"]
+- !private ["CSo6NSUUID", "init"]
+- !private ["CSo6NSUUID", "uuidString"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Ps9OptionSet", "Element"]
+- !private ["Ps9OptionSet", "RawValue"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps9OptionSet", "mutableLeaves"]
+- !private ["Ps9OptionSet", "prettyPrinted"]
+- ["Sq", "deinit"]
+- ["OCSo13URLCredential11Persistence", "deinit"]
+- !private ["OCSo13URLCredential11Persistence", "forSession"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "POST"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "ascii"]
+- !private ["Ps16RawRepresentable", "failed"]
+- !private ["Ps16RawRepresentable", "forSession"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "internetNotAvailable"]
+- !private ["Ps16RawRepresentable", "jpeg"]
+- !private ["Ps16RawRepresentable", "mutableLeaves"]
+- !private ["Ps16RawRepresentable", "prettyPrinted"]
+- ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "serverError"]
+- !private ["Ps16RawRepresentable", "success"]
+- !private ["Ps16RawRepresentable", "tokenExpired"]
+- !private ["Ps16RawRepresentable", "useCredential"]
+- !private ["Ps16RawRepresentable", "utf8"]
+- ["Ps16RawRepresentable", ""]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "mutableLeaves"]
+- !private ["P10Foundation20ReferenceConvertible", "IndexDistance"]
+- !private ["P10Foundation20ReferenceConvertible", "count"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- ["O7BarbrDo14ResponseStatus", "RawValue"]
+- ["O7BarbrDo14ResponseStatus", "_toAnyHashable"]
+- ["O7BarbrDo14ResponseStatus", "deinit"]
+- ["O7BarbrDo14ResponseStatus", "failed"]
+- ["O7BarbrDo14ResponseStatus", "hashValue"]
+- ["O7BarbrDo14ResponseStatus", "init"]
+- ["O7BarbrDo14ResponseStatus", "internetNotAvailable"]
+- ["O7BarbrDo14ResponseStatus", "rawValue"]
+- ["O7BarbrDo14ResponseStatus", "serverError"]
+- ["O7BarbrDo14ResponseStatus", "success"]
+- ["O7BarbrDo14ResponseStatus", "tokenExpired"]
+- ["CSo8SecTrust", "deinit"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "value"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "RawValue"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "mutableLeaves"]
+- !private ["Ps10SetAlgebra", "prettyPrinted"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "data"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- !private ["Ps16TextOutputStream", "Encoding"]
+- !private ["Ps16TextOutputStream", "data"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "Encoding"]
+- !private ["Ps20TextOutputStreamable", "data"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- ["CSo26URLAuthenticationChallenge", "deinit"]
+- !private ["CSo26URLAuthenticationChallenge", "previousFailureCount"]
+- !private ["CSo26URLAuthenticationChallenge", "protectionSpace"]
+- !private ["P9Alamofire14URLConvertible", "Encoding"]
+- !private ["P9Alamofire14URLConvertible", "data"]
+- ["P9Alamofire14URLConvertible", "init"]
+- ["CSo13URLCredential", "deinit"]
+- !private ["CSo13URLCredential", "init"]
+- ["CSo18URLProtectionSpace", "deinit"]
+- !private ["CSo18URLProtectionSpace", "serverTrust"]
+- ["V10Foundation10URLRequest", "deinit"]
+- !private ["CSo11URLResponse", "statusCode"]
+- ["CSo10URLSession", "AuthChallengeDisposition"]
+- !private ["CSo10URLSession", "dataTask"]
+- ["CSo10URLSession", "deinit"]
+- !private ["CSo10URLSession", "init"]
+- !private ["CSo10URLSession", "shared"]
+- !private ["CSo23URLSessionConfiguration", "default"]
+- ["CSo23URLSessionConfiguration", "deinit"]
+- ["CSo18URLSessionDataTask", "deinit"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- ["PSo18URLSessionDelegate", "ConnectionManager"]
+- !private ["PSo18URLSessionDelegate", "DispatchQueue"]
+- !private ["PSo18URLSessionDelegate", "JSONSerialization"]
+- !private ["PSo18URLSessionDelegate", "NSMutableData"]
+- !private ["PSo18URLSessionDelegate", "NSMutableURLRequest"]
+- !private ["PSo18URLSessionDelegate", "NSString"]
+- !private ["PSo18URLSessionDelegate", "NSUUID"]
+- !private ["PSo18URLSessionDelegate", "String"]
+- !private ["PSo18URLSessionDelegate", "URL"]
+- !private ["PSo18URLSessionDelegate", "URLCredential"]
+- ["PSo18URLSessionDelegate", "URLSession"]
+- !private ["PSo18URLSessionDelegate", "URLSessionConfiguration"]
+- ["PSo18URLSessionDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSo18URLSessionDelegate", "_createBodyWithParameters"]
+- !private ["PSo18URLSessionDelegate", "_generateBoundaryString"]
+- ["PSo18URLSessionDelegate", "init"]
+- !private ["PSo18URLSessionDelegate", "isInternetReachable"]
+- !private ["PSo18URLSessionDelegate", "print"]
+- !private ["PSo18URLSessionDelegate", "succesCode"]
+- !private ["PSo18URLSessionDelegate", "tokenExpirationCode"]
+- ["PSo18URLSessionDelegate", "urlSession"]
+- ["PSo18URLSessionDelegate", "urlSessionDidFinishEvents"]
+- ["PSo18URLSessionDelegate", ""]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["Sc", "deinit"]
+- !private ["VCSo17JSONSerialization14WritingOptions", "Element"]
+- !private ["VCSo17JSONSerialization14WritingOptions", "RawValue"]
+- ["VCSo17JSONSerialization14WritingOptions", "deinit"]
+- !private ["VCSo17JSONSerialization14WritingOptions", "init"]
+- !private ["VCSo17JSONSerialization14WritingOptions", "prettyPrinted"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Encoding"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "String"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "addValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "append"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "appendString"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "data"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "httpBody"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "httpMethod"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "setValue"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "timeoutInterval"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "uuidString"]
+- ["Ps9_Hashable", "AuthChallengeDisposition"]
+- ["Ps9_Hashable", "ConnectionManager"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "Encoding"]
+- !private ["Ps9_Hashable", "IndexDistance"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- !private ["Ps9_Hashable", "NSMutableData"]
+- !private ["Ps9_Hashable", "NSMutableURLRequest"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "NSUUID"]
+- !private ["Ps9_Hashable", "POST"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "URLCredential"]
+- ["Ps9_Hashable", "URLSession"]
+- !private ["Ps9_Hashable", "URLSessionConfiguration"]
+- ["Ps9_Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps9_Hashable", "WritingOptions"]
+- ["Ps9_Hashable", "_createBodyWithParameters"]
+- ["Ps9_Hashable", "_generateBoundaryString"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "addValue"]
+- !private ["Ps9_Hashable", "append"]
+- ["Ps9_Hashable", "appendString"]
+- !private ["Ps9_Hashable", "ascii"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dataTask"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "failed"]
+- !private ["Ps9_Hashable", "forSession"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "httpBody"]
+- !private ["Ps9_Hashable", "httpMethod"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "internetNotAvailable"]
+- !private ["Ps9_Hashable", "isInternetReachable"]
+- !private ["Ps9_Hashable", "jpeg"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "previousFailureCount"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "protectionSpace"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "resume"]
+- ["Ps9_Hashable", "sendRequest"]
+- !private ["Ps9_Hashable", "serverError"]
+- !private ["Ps9_Hashable", "serverTrust"]
+- !private ["Ps9_Hashable", "setValue"]
+- ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "statusCode"]
+- !private ["Ps9_Hashable", "succesCode"]
+- !private ["Ps9_Hashable", "success"]
+- !private ["Ps9_Hashable", "timeoutInterval"]
+- !private ["Ps9_Hashable", "tokenExpirationCode"]
+- !private ["Ps9_Hashable", "tokenExpired"]
+- ["Ps9_Hashable", "urlSession"]
+- ["Ps9_Hashable", "urlSessionDidFinishEvents"]
+- !private ["Ps9_Hashable", "useCredential"]
+- !private ["Ps9_Hashable", "utf8"]
+- !private ["Ps9_Hashable", "uuidString"]
+- !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation18_MutablePairBoxing", "IndexDistance"]
+- !private ["P10Foundation18_MutablePairBoxing", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "Encoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "data"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "OCSo10URLSession24AuthChallengeDisposition"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "C7BarbrDo17ConnectionManager"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Sd"
+- "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "CSo15HTTPURLResponse"
+- "Ps8Hashable"
+- "O7BarbrDo9ImageType"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "CSo17JSONSerialization"
+- "Ps25LosslessStringConvertible"
+- "O7BarbrDo6Method"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSData"
+- !private "CSo12NSDictionary"
+- "CSo7NSError"
+- !private "PSo17NSFastEnumeration"
+- "PSo16NSMutableCopying"
+- "CSo13NSMutableData"
+- "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "CSo12NSURLRequest"
+- !private "CSo6NSUUID"
+- !private "CSo9OS_object"
+- !private "Ps9OptionSet"
+- "Sq"
+- "OCSo13URLCredential11Persistence"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- !private "VCSo17JSONSerialization14ReadingOptions"
+- !private "P10Foundation20ReferenceConvertible"
+- "O7BarbrDo14ResponseStatus"
+- "CSo8SecTrust"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- "CSo26URLAuthenticationChallenge"
+- "P9Alamofire14URLConvertible"
+- "CSo13URLCredential"
+- "CSo18URLProtectionSpace"
+- "V10Foundation10URLRequest"
+- !private "CSo11URLResponse"
+- "CSo10URLSession"
+- "CSo23URLSessionConfiguration"
+- "CSo18URLSessionDataTask"
+- "PSo18URLSessionDelegate"
+- !private "CSo14URLSessionTask"
+- !private "Sc"
+- "VCSo17JSONSerialization14WritingOptions"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation18_MutablePairBoxing"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/EZRatingView/BarbrDo-Bridging-Header.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/BarbrDo/BRDAppoinment/Others/EZRatingView/EZRatingView.h"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Modules/PageMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Headers/PageMenu-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Headers/PageMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/PageMenu/PageMenu.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Modules/SwiftyStarRatingView.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Headers/SwiftyStarRatingView-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Headers/SwiftyStarRatingView-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyStarRatingView/SwiftyStarRatingView.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Headers/MBProgressHUD-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/SideMenu.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Headers/SideMenu-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SideMenu/SideMenu.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Users/vishwajeetk/Downloads/Xcode 8.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareMediaContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareVideo.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhotoContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharePhoto.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphAction.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareLinkContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialogMode.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareConstants.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphValueContainer.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareOpenGraphObject.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareAPI.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSendButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharingContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKSharing.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKMessageDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeControl.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLiking.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeObjectType.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKLikeButton.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKHashtag.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKGameRequestContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppInviteContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupJoinDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupContent.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKAppGroupAddDialog.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Headers/FBSDKShareKit-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKShareKit/FBSDKShareKit.framework/Modules/module.modulemap"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/vishwajeetk/Desktop/BarbrDo/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+interface-hash: "b1198735d7c06af2dab6e1c9dc304038"

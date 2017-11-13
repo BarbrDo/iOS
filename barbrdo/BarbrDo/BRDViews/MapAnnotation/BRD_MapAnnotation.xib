@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Berlin Sans FB Regular.ttf">
+            <string>BerlinSansFB-Reg</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BRD_MapAnnotation" rowHeight="71" id="KGk-i7-Jjw" customClass="BRD_MapAnnotation" customModule="BarbrDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WpU-Dt-QmR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="70.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON_PROFILEIMAGE" translatesAutoresizingMaskIntoConstraints="NO" id="200-IC-oZu">
+                                <rect key="frame" x="8" y="5" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="H8C-ZI-GFn"/>
+                                    <constraint firstAttribute="width" constant="60" id="Wvf-uL-Xp4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pop's Barber Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jt-5X-cHf">
+                                <rect key="frame" x="78" y="7" width="106.5" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="E02-h3-y75"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# of Barber:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioz-Fo-Wp8">
+                                <rect key="frame" x="78" y="27" width="55.5" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="jbx-IH-XUj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YS-1G-Rvt">
+                                <rect key="frame" x="78" y="44" width="41" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="G8V-Ek-xxT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.3 Miles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvP-OB-iQn">
+                                <rect key="frame" x="124" y="44" width="39" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Eso-ku-kgs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxM-lQ-zX2">
+                                <rect key="frame" x="138.5" y="27" width="5.5" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="1Mn-fU-o6B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BerlinSansFB-Reg" family="Berlin Sans FB" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOJ-jB-fvb">
+                                <rect key="frame" x="240" y="24" width="70" height="22"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.2784313725" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="LbH-j7-9zV"/>
+                                    <constraint firstAttribute="height" constant="22" id="eXU-Ox-7V3"/>
+                                </constraints>
+                                <state key="normal" title="Details">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnDetailAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="czJ-SZ-TNB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="VOJ-jB-fvb" secondAttribute="bottom" constant="24.5" id="AaQ-J8-EcI"/>
+                            <constraint firstItem="3YS-1G-Rvt" firstAttribute="leading" secondItem="200-IC-oZu" secondAttribute="trailing" constant="10" id="BH9-M6-XVU"/>
+                            <constraint firstItem="ioz-Fo-Wp8" firstAttribute="top" secondItem="3jt-5X-cHf" secondAttribute="bottom" constant="2" id="C53-Yy-wif"/>
+                            <constraint firstItem="JvP-OB-iQn" firstAttribute="leading" secondItem="3YS-1G-Rvt" secondAttribute="trailing" constant="5" id="CuQ-uO-3vp"/>
+                            <constraint firstItem="DxM-lQ-zX2" firstAttribute="leading" secondItem="ioz-Fo-Wp8" secondAttribute="trailing" constant="5" id="Hi7-Gp-mhR"/>
+                            <constraint firstItem="3jt-5X-cHf" firstAttribute="leading" secondItem="200-IC-oZu" secondAttribute="trailing" constant="10" id="TvF-w7-yiv"/>
+                            <constraint firstItem="3jt-5X-cHf" firstAttribute="top" secondItem="WpU-Dt-QmR" secondAttribute="top" constant="7" id="XAx-Pa-dkP"/>
+                            <constraint firstItem="200-IC-oZu" firstAttribute="leading" secondItem="WpU-Dt-QmR" secondAttribute="leading" constant="8" id="YA4-3J-rmy"/>
+                            <constraint firstItem="200-IC-oZu" firstAttribute="top" secondItem="WpU-Dt-QmR" secondAttribute="top" constant="5" id="d9G-xH-RpC"/>
+                            <constraint firstItem="3YS-1G-Rvt" firstAttribute="top" secondItem="ioz-Fo-Wp8" secondAttribute="bottom" constant="2" id="iqN-LR-FQc"/>
+                            <constraint firstItem="DxM-lQ-zX2" firstAttribute="top" secondItem="3jt-5X-cHf" secondAttribute="bottom" constant="2" id="mLB-8Y-2G1"/>
+                            <constraint firstItem="JvP-OB-iQn" firstAttribute="top" secondItem="DxM-lQ-zX2" secondAttribute="bottom" constant="2" id="nGh-lI-pw3"/>
+                            <constraint firstItem="ioz-Fo-Wp8" firstAttribute="leading" secondItem="200-IC-oZu" secondAttribute="trailing" constant="10" id="nrB-G2-0bh"/>
+                            <constraint firstAttribute="trailing" secondItem="VOJ-jB-fvb" secondAttribute="trailing" constant="10" id="oh4-kX-BcN"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WpU-Dt-QmR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Nzd-hG-55a"/>
+                    <constraint firstItem="WpU-Dt-QmR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kHs-Av-3Lr"/>
+                    <constraint firstAttribute="trailing" secondItem="WpU-Dt-QmR" secondAttribute="trailing" id="rgr-We-vXB"/>
+                    <constraint firstAttribute="bottom" secondItem="WpU-Dt-QmR" secondAttribute="bottom" id="rjZ-iI-rGu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnDetail" destination="VOJ-jB-fvb" id="aew-Z0-qVU"/>
+                <outlet property="lblBarberCount" destination="DxM-lQ-zX2" id="DoV-jN-Aus"/>
+                <outlet property="lblDistance" destination="JvP-OB-iQn" id="Nce-sY-WY4"/>
+                <outlet property="lblName" destination="3jt-5X-cHf" id="E4V-cn-2U3"/>
+                <outlet property="profileImageView" destination="200-IC-oZu" id="vnF-3k-Zc5"/>
+            </connections>
+            <point key="canvasLocation" x="-81" y="-35"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ICON_PROFILEIMAGE" width="62" height="62"/>
+    </resources>
+</document>
